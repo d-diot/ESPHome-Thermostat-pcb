@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name ESP8266)(type KiCad)(uri ${KIPRJMOD}/extlibs/footprint/ESP8266/ESP8266.pretty)(options "")(descr ""))
+  (lib (name SSD1306_128x96)(type KiCad)(uri ${KIPRJMOD}/extlibs/footprint/SSD1306_128x96/SSD1306_128x96.pretty)(options "")(descr ""))
+  (lib (name Si7021)(type KiCad)(uri ${KIPRJMOD}/extlibs/footprint/Si7021)(options "")(descr ""))
+  (lib (name MT3608)(type KiCad)(uri ${KIPRJMOD}/extlibs/footprint/MT3608)(options "")(descr ""))
+  (lib (name CAPPC3528X210N)(type Legacy)(uri ${KIPRJMOD}/extlibs/footprint/TAJB226M016RNJ/CAPPC3528X210N.mod)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/extlibs/footprint/d-diot-logo/logo.pretty)(options "")(descr ""))
+)
