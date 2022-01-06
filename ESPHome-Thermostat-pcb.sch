@@ -9,7 +9,7 @@ Date "2021-12-18"
 Rev "1.0"
 Comp "d-diot"
 Comment1 "author: Francesco Berghi"
-Comment2 "mail:info@d-diot.com"
+Comment2 "mail: info@d-diot.com"
 Comment3 "https://www-d-diot.com"
 Comment4 ""
 $EndDescr
@@ -21,6 +21,14 @@ F 0 "U1" H 1650 2837 60  0000 C CNN
 F 1 "NodeMCU_1.0_(ESP-12E)" H 1650 2731 60  0000 C CNN
 F 2 "ESP8266:NodeMCU-LoLinV3" H 1050 900 60  0001 C CNN
 F 3 "" H 1050 900 60  0000 C CNN
+F 4 "2 x Pin header female 1×15 p.2.54 mm " H 1650 1750 50  0001 C CNN "Description"
+F 5 "NA" H 1650 1750 50  0001 C CNN "Link"
+F 6 "NA" H 1650 1750 50  0001 C CNN "MOQ"
+F 7 "NA" H 1650 1750 50  0001 C CNN "MPN"
+F 8 "NA" H 1650 1750 50  0001 C CNN "Manufacturer"
+F 9 "NA" H 1650 1750 50  0001 C CNN "Price"
+F 10 "NA" H 1650 1750 50  0001 C CNN "VPN"
+F 11 "NA" H 1650 1750 50  0001 C CNN "Vendor"
 	1    1650 1750
 	1    0    0    -1  
 $EndComp
@@ -32,6 +40,14 @@ F 0 "SW1" H 6800 1467 50  0000 C CNN
 F 1 "EC11_Rotary_Encoder_Switch" H 6800 1376 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6650 1260 50  0001 C CNN
 F 3 "~" H 6800 1360 50  0001 C CNN
+F 4 "EC11 Rotary encoder with push button - 15 mm shaft S" H 6800 1100 50  0001 C CNN "Description"
+F 5 "https://www.ebay.it/itm/182373237976" H 6800 1100 50  0001 C CNN "Link"
+F 6 "10" H 6800 1100 50  0001 C CNN "MOQ"
+F 7 "EC11" H 6800 1100 50  0001 C CNN "MPN"
+F 8 "Alpsalpine" H 6800 1100 50  0001 C CNN "Manufacturer"
+F 9 "0.57" H 6800 1100 50  0001 C CNN "Price"
+F 10 "NA" H 6800 1100 50  0001 C CNN "VPN"
+F 11 "Ebay" H 6800 1100 50  0001 C CNN "Vendor"
 	1    6800 1100
 	0    1    1    0   
 $EndComp
@@ -43,6 +59,14 @@ F 0 "J4" H 7330 3392 50  0000 L CNN
 F 1 "SSD1306_Display" H 7330 3301 50  0000 L CNN
 F 2 "SSD1306_128x96:Display_128x64_096_I2C" H 7250 3400 50  0001 C CNN
 F 3 "~" H 7250 3400 50  0001 C CNN
+F 4 "Pin header female 1×04 p.2.54 mm " H 7250 3400 50  0001 C CNN "Description"
+F 5 "NA" H 7250 3400 50  0001 C CNN "Link"
+F 6 "NA" H 7250 3400 50  0001 C CNN "MOQ"
+F 7 "NA" H 7250 3400 50  0001 C CNN "MPN"
+F 8 "NA" H 7250 3400 50  0001 C CNN "Manufacturer"
+F 9 "NA" H 7250 3400 50  0001 C CNN "Price"
+F 10 "NA" H 7250 3400 50  0001 C CNN "VPN"
+F 11 "NA" H 7250 3400 50  0001 C CNN "Vendor"
 	1    7250 3400
 	1    0    0    -1  
 $EndComp
@@ -52,8 +76,16 @@ U 1 1 61BFED80
 P 1750 3400
 F 0 "J1" H 1830 3392 50  0000 L CNN
 F 1 "Si7021" H 1830 3301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1750 3400 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 1750 3400 50  0001 C CNN
 F 3 "~" H 1750 3400 50  0001 C CNN
+F 4 "Pin header female 1×04 p.2.54 mm " H 1750 3400 50  0001 C CNN "Description"
+F 5 "NA" H 1750 3400 50  0001 C CNN "Link"
+F 6 "NA" H 1750 3400 50  0001 C CNN "MOQ"
+F 7 "NA" H 1750 3400 50  0001 C CNN "MPN"
+F 8 "NA" H 1750 3400 50  0001 C CNN "Manufacturer"
+F 9 "NA" H 1750 3400 50  0001 C CNN "Price"
+F 10 "NA" H 1750 3400 50  0001 C CNN "VPN"
+F 11 "NA" H 1750 3400 50  0001 C CNN "Vendor"
 	1    1750 3400
 	1    0    0    -1  
 $EndComp
@@ -65,6 +97,14 @@ F 0 "BZ1" H 3752 3529 50  0000 L CNN
 F 1 "Buzzer" H 3752 3438 50  0000 L CNN
 F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 3575 3600 50  0001 C CNN
 F 3 "~" V 3575 3600 50  0001 C CNN
+F 4 "Universal Passive Buzzer" H 3600 3500 50  0001 C CNN "Description"
+F 5 "https://www.ebay.it/itm/5PCS-Universal-Passive-Buzzer-16-ohm-AC-2KHz-3V-5V-12V-MINI-Alarm-Speaker-NEW/323128707500?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649" H 3600 3500 50  0001 C CNN "Link"
+F 6 "5" H 3600 3500 50  0001 C CNN "MOQ"
+F 7 "NA" H 3600 3500 50  0001 C CNN "MPN"
+F 8 "NA" H 3600 3500 50  0001 C CNN "Manufacturer"
+F 9 "0.25" H 3600 3500 50  0001 C CNN "Price"
+F 10 "NA" H 3600 3500 50  0001 C CNN "VPN"
+F 11 "Ebay" H 3600 3500 50  0001 C CNN "Vendor"
 	1    3600 3500
 	1    0    0    -1  
 $EndComp
@@ -76,28 +116,52 @@ F 0 "R11" V 3143 3400 50  0000 C CNN
 F 1 "300" V 3234 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3280 3400 50  0001 C CNN
 F 3 "~" H 3350 3400 50  0001 C CNN
+F 4 "Resistor 300 Ohm SMD 0805 " H 3350 3400 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F3000T5E_C61685.html" H 3350 3400 50  0001 C CNN "Link"
+F 6 "50" H 3350 3400 50  0001 C CNN "MOQ"
+F 7 "TC0525F3000T5E" H 3350 3400 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 3350 3400 50  0001 C CNN "Manufacturer"
+F 9 "0.008" H 3350 3400 50  0001 C CNN "Price"
+F 10 "C61685" H 3350 3400 50  0001 C CNN "VPN"
+F 11 "LCSC" H 3350 3400 50  0001 C CNN "Vendor"
 	1    3350 3400
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J2
+L Connector_Generic:Conn_01x04 J3
 U 1 1 61C08DB9
 P 5400 3400
-F 0 "J2" H 5480 3392 50  0000 L CNN
+F 0 "J3" H 5480 3392 50  0000 L CNN
 F 1 "MT3608" H 5480 3301 50  0000 L CNN
 F 2 "MT3608:MT3608" H 5400 3400 50  0001 C CNN
 F 3 "~" H 5400 3400 50  0001 C CNN
+F 4 "Step-up boost converter MT3608 module" H 5400 3400 50  0001 C CNN "Description"
+F 5 "https://it.aliexpress.com/item/1005002433903674.html?spm=a2g0o.productlist.0.0.a9ef2e2c23nYhC&algo_pvid=2a3fc40f-3cea-41f8-a92b-ceb114ecb6dc&aem_p4p_detail=2022010502021310360890204763230028354520&algo_exp_id=2a3fc40f-3cea-41f8-a92b-ceb114ecb6dc-2&pdp_ext_f=%7B%22sku_id%22%3A%2212000020640575083%22%7D&pdp_pi=-1%3B2.13%3B-1%3B-1%40salePrice%3BEUR%3Bsearch-mainSearch" H 5400 3400 50  0001 C CNN "Link"
+F 6 "1" H 5400 3400 50  0001 C CNN "MOQ"
+F 7 "NA" H 5400 3400 50  0001 C CNN "MPN"
+F 8 "NA" H 5400 3400 50  0001 C CNN "Manufacturer"
+F 9 "0.45" H 5400 3400 50  0001 C CNN "Price"
+F 10 "NA" H 5400 3400 50  0001 C CNN "VPN"
+F 11 "Aliexpress" H 5400 3400 50  0001 C CNN "Vendor"
 	1    5400 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J3
+L Connector_Generic:Conn_01x10 J2
 U 1 1 61C1029A
 P 5400 950
-F 0 "J3" H 5480 942 50  0000 L CNN
+F 0 "J2" H 5480 942 50  0000 L CNN
 F 1 "Relay_Out" H 5480 851 50  0000 L CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x10_P3.50mm_Vertical" H 5400 950 50  0001 C CNN
 F 3 "~" H 5400 950 50  0001 C CNN
+F 4 "Pluggable terminal block 1x10 p.3.5 mm straight needle" H 5400 950 50  0001 C CNN "Description"
+F 5 "https://it.aliexpress.com/item/1005002951707517.html?spm=a2g0o.9042311.0.0.7a244c4dXbH7Sk" H 5400 950 50  0001 C CNN "Link"
+F 6 "NA" H 5400 950 50  0001 C CNN "MOQ"
+F 7 "NA" H 5400 950 50  0001 C CNN "MPN"
+F 8 "KF2EDG" H 5400 950 50  0001 C CNN "Manufacturer"
+F 9 "NA" H 5400 950 50  0001 C CNN "Price"
+F 10 "NA" H 5400 950 50  0001 C CNN "VPN"
+F 11 "Aliexpress" H 5400 950 50  0001 C CNN "Vendor"
 	1    5400 950 
 	0    -1   -1   0   
 $EndComp
@@ -109,6 +173,14 @@ F 0 "U2" H 3900 2231 50  0000 C CNN
 F 1 "PCF8574" H 3900 2140 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 3900 1350 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 3900 1350 50  0001 C CNN
+F 4 "Remote 8 bit I/O expander for I2C  bus PCF8574T SMD  SOIC-16" H 3900 1350 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/I-O-Expanders_NXP-Semicon-PCF8574T-3-518_C7605.html" H 3900 1350 50  0001 C CNN "Link"
+F 6 "1" H 3900 1350 50  0001 C CNN "MOQ"
+F 7 "PCF8574T/3,518" H 3900 1350 50  0001 C CNN "MPN"
+F 8 "NXP Semicon " H 3900 1350 50  0001 C CNN "Manufacturer"
+F 9 "1.17" H 3900 1350 50  0001 C CNN "Price"
+F 10 "C7605" H 3900 1350 50  0001 C CNN "VPN"
+F 11 "LCSC" H 3900 1350 50  0001 C CNN "Vendor"
 	1    3900 1350
 	0    -1   -1   0   
 $EndComp
@@ -120,6 +192,14 @@ F 0 "Q3" V 1799 5100 50  0000 C CNN
 F 1 "PMOS_AP40P05" V 1890 5100 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1750 5200 50  0001 C CNN
 F 3 "~" H 1550 5100 50  0001 C CNN
+F 4 "P-Channel mosfet 40V 5A RDS ON 65mΩ, Gate threshold -1.6V SMD SOT-23" H 1550 5100 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP40P05_C2886385.html" H 1550 5100 50  0001 C CNN "Link"
+F 6 "10" H 1550 5100 50  0001 C CNN "MOQ"
+F 7 "AP40P05" H 1550 5100 50  0001 C CNN "MPN"
+F 8 "ALLPOWER(ShenZhen Quan Li Semiconductor)" H 1550 5100 50  0001 C CNN "Manufacturer"
+F 9 "0.033" H 1550 5100 50  0001 C CNN "Price"
+F 10 "C2886385" H 1550 5100 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1550 5100 50  0001 C CNN "Vendor"
 	1    1550 5100
 	0    1    1    0   
 $EndComp
@@ -131,6 +211,14 @@ F 0 "Q1" H 1655 4446 50  0000 L CNN
 F 1 "NMOS_YJL03N06A" H 1655 4355 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1650 4500 50  0001 C CNN
 F 3 "~" H 1450 4400 50  0001 C CNN
+F 4 "LCSC" H 1450 4400 50  0001 C CNN "Vendor"
+F 5 "N-Channel mosfet 60V 3A RDS ON 86mΩ, Gate threshold 1.3V SMD SOT-23" H 1450 4400 50  0001 C CNN "Description"
+F 6 "https://lcsc.com/product-detail/MOSFETs_Yangzhou-Yangjie-Elec-Tech-YJL03N06A_C699294.html" H 1450 4400 50  0001 C CNN "Link"
+F 7 "10" H 1450 4400 50  0001 C CNN "MOQ"
+F 8 "YJL03N06A" H 1450 4400 50  0001 C CNN "MPN"
+F 9 "Yangzhou Yangjie Elec Tech" H 1450 4400 50  0001 C CNN "Manufacturer"
+F 10 "0.038" H 1450 4400 50  0001 C CNN "Price"
+F 11 "C699294" H 1450 4400 50  0001 C CNN "VPN"
 	1    1450 4400
 	-1   0    0    1   
 $EndComp
@@ -153,6 +241,14 @@ F 0 "R5" V 1443 4250 50  0000 C CNN
 F 1 "10K" V 1534 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1580 4250 50  0001 C CNN
 F 3 "~" H 1650 4250 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 1650 4250 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 1650 4250 50  0001 C CNN "Link"
+F 6 "50" H 1650 4250 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 1650 4250 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 1650 4250 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 1650 4250 50  0001 C CNN "Price"
+F 10 "C57859 " H 1650 4250 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1650 4250 50  0001 C CNN "Vendor"
 	1    1650 4250
 	-1   0    0    1   
 $EndComp
@@ -169,6 +265,14 @@ F 0 "R2" V 1143 5050 50  0000 C CNN
 F 1 "10K" V 1234 5050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 5050 50  0001 C CNN
 F 3 "~" H 1350 5050 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 1350 5050 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 1350 5050 50  0001 C CNN "Link"
+F 6 "50" H 1350 5050 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 1350 5050 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 1350 5050 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 1350 5050 50  0001 C CNN "Price"
+F 10 "C57859 " H 1350 5050 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1350 5050 50  0001 C CNN "Vendor"
 	1    1350 5050
 	1    0    0    -1  
 $EndComp
@@ -180,6 +284,14 @@ F 0 "R1" V 1143 4750 50  0000 C CNN
 F 1 "10K" V 1234 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 4750 50  0001 C CNN
 F 3 "~" H 1350 4750 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 1350 4750 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 1350 4750 50  0001 C CNN "Link"
+F 6 "50" H 1350 4750 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 1350 4750 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 1350 4750 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 1350 4750 50  0001 C CNN "Price"
+F 10 "C57859 " H 1350 4750 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1350 4750 50  0001 C CNN "Vendor"
 	1    1350 4750
 	-1   0    0    1   
 $EndComp
@@ -210,6 +322,14 @@ F 0 "R7" V 1593 4550 50  0000 C CNN
 F 1 "300" V 1684 4550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 4550 50  0001 C CNN
 F 3 "~" H 1800 4550 50  0001 C CNN
+F 4 "Resistor 300 Ohm SMD 0805 " H 1800 4550 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F3000T5E_C61685.html" H 1800 4550 50  0001 C CNN "Link"
+F 6 "50" H 1800 4550 50  0001 C CNN "MOQ"
+F 7 "TC0525F3000T5E" H 1800 4550 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 1800 4550 50  0001 C CNN "Manufacturer"
+F 9 "0.008" H 1800 4550 50  0001 C CNN "Price"
+F 10 "C61685" H 1800 4550 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1800 4550 50  0001 C CNN "Vendor"
 	1    1800 4550
 	1    0    0    -1  
 $EndComp
@@ -221,6 +341,12 @@ F 0 "D2" H 1950 4450 50  0000 C CNN
 F 1 "R-LED" H 1900 4550 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 1950 4700 50  0001 C CNN
 F 3 "~" H 1950 4700 50  0001 C CNN
+F 4 "Red Led SMD 0805 " H 1950 4700 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_LED-Red-LED_C138549.html" H 1950 4700 50  0001 C CNN "Link"
+F 6 "BL-HUE35A-AV-TRE" H 1950 4700 50  0001 C CNN "MPN"
+F 7 "BrtLed(Bright LED Elec)" H 1950 4700 50  0001 C CNN "Manufacturer"
+F 8 "C138549" H 1950 4700 50  0001 C CNN "VPN"
+F 9 "LCSC" H 1950 4700 50  0001 C CNN "Vendor"
 	1    1950 4700
 	-1   0    0    1   
 $EndComp
@@ -247,6 +373,14 @@ F 0 "Q8" V 3999 5100 50  0000 C CNN
 F 1 "PMOS_AP40P05" V 4090 5100 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 5200 50  0001 C CNN
 F 3 "~" H 3750 5100 50  0001 C CNN
+F 4 "P-Channel mosfet 40V 5A RDS ON 65mΩ, Gate threshold -1.6V SMD SOT-23" H 3750 5100 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP40P05_C2886385.html" H 3750 5100 50  0001 C CNN "Link"
+F 6 "10" H 3750 5100 50  0001 C CNN "MOQ"
+F 7 "AP40P05" H 3750 5100 50  0001 C CNN "MPN"
+F 8 "ALLPOWER(ShenZhen Quan Li Semiconductor)" H 3750 5100 50  0001 C CNN "Manufacturer"
+F 9 "0.033" H 3750 5100 50  0001 C CNN "Price"
+F 10 "C2886385" H 3750 5100 50  0001 C CNN "VPN"
+F 11 "LCSC" H 3750 5100 50  0001 C CNN "Vendor"
 	1    3750 5100
 	0    1    1    0   
 $EndComp
@@ -258,6 +392,14 @@ F 0 "Q6" H 3855 4446 50  0000 L CNN
 F 1 "NMOS_YJL03N06A" H 3855 4355 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3850 4500 50  0001 C CNN
 F 3 "~" H 3650 4400 50  0001 C CNN
+F 4 "LCSC" H 3650 4400 50  0001 C CNN "Vendor"
+F 5 "N-Channel mosfet 60V 3A RDS ON 86mΩ, Gate threshold 1.3V SMD SOT-23" H 3650 4400 50  0001 C CNN "Description"
+F 6 "https://lcsc.com/product-detail/MOSFETs_Yangzhou-Yangjie-Elec-Tech-YJL03N06A_C699294.html" H 3650 4400 50  0001 C CNN "Link"
+F 7 "10" H 3650 4400 50  0001 C CNN "MOQ"
+F 8 "YJL03N06A" H 3650 4400 50  0001 C CNN "MPN"
+F 9 "Yangzhou Yangjie Elec Tech" H 3650 4400 50  0001 C CNN "Manufacturer"
+F 10 "0.038" H 3650 4400 50  0001 C CNN "Price"
+F 11 "C699294" H 3650 4400 50  0001 C CNN "VPN"
 	1    3650 4400
 	-1   0    0    1   
 $EndComp
@@ -280,6 +422,14 @@ F 0 "R17" V 3643 4250 50  0000 C CNN
 F 1 "10K" V 3734 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3780 4250 50  0001 C CNN
 F 3 "~" H 3850 4250 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 3850 4250 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 3850 4250 50  0001 C CNN "Link"
+F 6 "50" H 3850 4250 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 3850 4250 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 3850 4250 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 3850 4250 50  0001 C CNN "Price"
+F 10 "C57859 " H 3850 4250 50  0001 C CNN "VPN"
+F 11 "LCSC" H 3850 4250 50  0001 C CNN "Vendor"
 	1    3850 4250
 	-1   0    0    1   
 $EndComp
@@ -296,6 +446,14 @@ F 0 "R15" V 3343 5050 50  0000 C CNN
 F 1 "10K" V 3434 5050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3480 5050 50  0001 C CNN
 F 3 "~" H 3550 5050 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 3550 5050 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 3550 5050 50  0001 C CNN "Link"
+F 6 "50" H 3550 5050 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 3550 5050 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 3550 5050 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 3550 5050 50  0001 C CNN "Price"
+F 10 "C57859 " H 3550 5050 50  0001 C CNN "VPN"
+F 11 "LCSC" H 3550 5050 50  0001 C CNN "Vendor"
 	1    3550 5050
 	1    0    0    -1  
 $EndComp
@@ -307,6 +465,14 @@ F 0 "R14" V 3343 4750 50  0000 C CNN
 F 1 "10K" V 3434 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3480 4750 50  0001 C CNN
 F 3 "~" H 3550 4750 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 3550 4750 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 3550 4750 50  0001 C CNN "Link"
+F 6 "50" H 3550 4750 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 3550 4750 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 3550 4750 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 3550 4750 50  0001 C CNN "Price"
+F 10 "C57859 " H 3550 4750 50  0001 C CNN "VPN"
+F 11 "LCSC" H 3550 4750 50  0001 C CNN "Vendor"
 	1    3550 4750
 	-1   0    0    1   
 $EndComp
@@ -331,6 +497,14 @@ F 0 "R19" V 3793 4550 50  0000 C CNN
 F 1 "300" V 3884 4550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3930 4550 50  0001 C CNN
 F 3 "~" H 4000 4550 50  0001 C CNN
+F 4 "Resistor 300 Ohm SMD 0805 " H 4000 4550 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F3000T5E_C61685.html" H 4000 4550 50  0001 C CNN "Link"
+F 6 "50" H 4000 4550 50  0001 C CNN "MOQ"
+F 7 "TC0525F3000T5E" H 4000 4550 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 4000 4550 50  0001 C CNN "Manufacturer"
+F 9 "0.008" H 4000 4550 50  0001 C CNN "Price"
+F 10 "C61685" H 4000 4550 50  0001 C CNN "VPN"
+F 11 "LCSC" H 4000 4550 50  0001 C CNN "Vendor"
 	1    4000 4550
 	1    0    0    -1  
 $EndComp
@@ -342,6 +516,14 @@ F 0 "D8" H 4150 4450 50  0000 C CNN
 F 1 "B-LED" H 4100 4550 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 4150 4700 50  0001 C CNN
 F 3 "~" H 4150 4700 50  0001 C CNN
+F 4 "Blu Led SMD 0805 " H 4150 4700 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Blue-light-SMDLED-36-45mcdat2mA_C84259.html" H 4150 4700 50  0001 C CNN "Link"
+F 6 "20" H 4150 4700 50  0001 C CNN "MOQ"
+F 7 "NCD0805B2 " H 4150 4700 50  0001 C CNN "MPN"
+F 8 "Foshan NationStar" H 4150 4700 50  0001 C CNN "Manufacturer"
+F 9 "0.021" H 4150 4700 50  0001 C CNN "Price"
+F 10 "C84259 " H 4150 4700 50  0001 C CNN "VPN"
+F 11 "LCSC" H 4150 4700 50  0001 C CNN "Vendor"
 	1    4150 4700
 	-1   0    0    1   
 $EndComp
@@ -363,32 +545,48 @@ P1
 Text GLabel 5200 1150 3    50   Input ~ 0
 Relay2
 $Comp
-L Device:Q_PMOS_GSD Q12
+L Device:Q_PMOS_GSD Q13
 U 1 1 61D03B2D
 P 5900 5100
-F 0 "Q12" V 6149 5100 50  0000 C CNN
+F 0 "Q13" V 6149 5100 50  0000 C CNN
 F 1 "PMOS_AP40P05" V 6240 5100 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6100 5200 50  0001 C CNN
 F 3 "~" H 5900 5100 50  0001 C CNN
+F 4 "P-Channel mosfet 40V 5A RDS ON 65mΩ, Gate threshold -1.6V SMD SOT-23" H 5900 5100 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP40P05_C2886385.html" H 5900 5100 50  0001 C CNN "Link"
+F 6 "10" H 5900 5100 50  0001 C CNN "MOQ"
+F 7 "AP40P05" H 5900 5100 50  0001 C CNN "MPN"
+F 8 "ALLPOWER(ShenZhen Quan Li Semiconductor)" H 5900 5100 50  0001 C CNN "Manufacturer"
+F 9 "0.033" H 5900 5100 50  0001 C CNN "Price"
+F 10 "C2886385" H 5900 5100 50  0001 C CNN "VPN"
+F 11 "LCSC" H 5900 5100 50  0001 C CNN "Vendor"
 	1    5900 5100
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q11
+L Device:Q_NMOS_GSD Q12
 U 1 1 61D03DFD
 P 5800 4400
-F 0 "Q11" H 6005 4446 50  0000 L CNN
+F 0 "Q12" H 6005 4446 50  0000 L CNN
 F 1 "NMOS_YJL03N06A" H 6005 4355 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 4500 50  0001 C CNN
 F 3 "~" H 5800 4400 50  0001 C CNN
+F 4 "LCSC" H 5800 4400 50  0001 C CNN "Vendor"
+F 5 "N-Channel mosfet 60V 3A RDS ON 86mΩ, Gate threshold 1.3V SMD SOT-23" H 5800 4400 50  0001 C CNN "Description"
+F 6 "https://lcsc.com/product-detail/MOSFETs_Yangzhou-Yangjie-Elec-Tech-YJL03N06A_C699294.html" H 5800 4400 50  0001 C CNN "Link"
+F 7 "10" H 5800 4400 50  0001 C CNN "MOQ"
+F 8 "YJL03N06A" H 5800 4400 50  0001 C CNN "MPN"
+F 9 "Yangzhou Yangjie Elec Tech" H 5800 4400 50  0001 C CNN "Manufacturer"
+F 10 "0.038" H 5800 4400 50  0001 C CNN "Price"
+F 11 "C699294" H 5800 4400 50  0001 C CNN "VPN"
 	1    5800 4400
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR028
+L power:GND #PWR026
 U 1 1 61D03E07
 P 5700 4100
-F 0 "#PWR028" H 5700 3850 50  0001 C CNN
+F 0 "#PWR026" H 5700 3850 50  0001 C CNN
 F 1 "GND" H 5705 3927 50  0000 C CNN
 F 2 "" H 5700 4100 50  0001 C CNN
 F 3 "" H 5700 4100 50  0001 C CNN
@@ -403,6 +601,14 @@ F 0 "R27" V 5793 4250 50  0000 C CNN
 F 1 "10K" V 5884 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5930 4250 50  0001 C CNN
 F 3 "~" H 6000 4250 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 6000 4250 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 6000 4250 50  0001 C CNN "Link"
+F 6 "50" H 6000 4250 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 6000 4250 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 6000 4250 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 6000 4250 50  0001 C CNN "Price"
+F 10 "C57859 " H 6000 4250 50  0001 C CNN "VPN"
+F 11 "LCSC" H 6000 4250 50  0001 C CNN "Vendor"
 	1    6000 4250
 	-1   0    0    1   
 $EndComp
@@ -419,6 +625,14 @@ F 0 "R25" V 5493 5050 50  0000 C CNN
 F 1 "10K" V 5584 5050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5630 5050 50  0001 C CNN
 F 3 "~" H 5700 5050 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 5700 5050 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 5700 5050 50  0001 C CNN "Link"
+F 6 "50" H 5700 5050 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 5700 5050 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 5700 5050 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 5700 5050 50  0001 C CNN "Price"
+F 10 "C57859 " H 5700 5050 50  0001 C CNN "VPN"
+F 11 "LCSC" H 5700 5050 50  0001 C CNN "Vendor"
 	1    5700 5050
 	1    0    0    -1  
 $EndComp
@@ -430,6 +644,14 @@ F 0 "R24" V 5493 4750 50  0000 C CNN
 F 1 "10K" V 5584 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5630 4750 50  0001 C CNN
 F 3 "~" H 5700 4750 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 5700 4750 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 5700 4750 50  0001 C CNN "Link"
+F 6 "50" H 5700 4750 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 5700 4750 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 5700 4750 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 5700 4750 50  0001 C CNN "Price"
+F 10 "C57859 " H 5700 4750 50  0001 C CNN "VPN"
+F 11 "LCSC" H 5700 4750 50  0001 C CNN "Vendor"
 	1    5700 4750
 	-1   0    0    1   
 $EndComp
@@ -454,6 +676,14 @@ F 0 "R29" V 5943 4550 50  0000 C CNN
 F 1 "300" V 6034 4550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6080 4550 50  0001 C CNN
 F 3 "~" H 6150 4550 50  0001 C CNN
+F 4 "Resistor 300 Ohm SMD 0805 " H 6150 4550 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F3000T5E_C61685.html" H 6150 4550 50  0001 C CNN "Link"
+F 6 "50" H 6150 4550 50  0001 C CNN "MOQ"
+F 7 "TC0525F3000T5E" H 6150 4550 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 6150 4550 50  0001 C CNN "Manufacturer"
+F 9 "0.008" H 6150 4550 50  0001 C CNN "Price"
+F 10 "C61685" H 6150 4550 50  0001 C CNN "VPN"
+F 11 "LCSC" H 6150 4550 50  0001 C CNN "Vendor"
 	1    6150 4550
 	1    0    0    -1  
 $EndComp
@@ -465,6 +695,14 @@ F 0 "D12" H 6300 4450 50  0000 C CNN
 F 1 "W-LED" H 6250 4550 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 6300 4700 50  0001 C CNN
 F 3 "~" H 6300 4700 50  0001 C CNN
+F 4 "White Led SMD 0805 " H 6300 4700 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yongyu-Photoelectric-SZYY0805W_C434434.html" H 6300 4700 50  0001 C CNN "Link"
+F 6 "50" H 6300 4700 50  0001 C CNN "MOQ"
+F 7 "SZYY0805W" H 6300 4700 50  0001 C CNN "MPN"
+F 8 "Yongyu Photoelectric" H 6300 4700 50  0001 C CNN "Manufacturer"
+F 9 "0.012" H 6300 4700 50  0001 C CNN "Price"
+F 10 "C434434" H 6300 4700 50  0001 C CNN "VPN"
+F 11 "LCSC" H 6300 4700 50  0001 C CNN "Vendor"
 	1    6300 4700
 	-1   0    0    1   
 $EndComp
@@ -493,6 +731,14 @@ F 0 "Q16" V 8299 5100 50  0000 C CNN
 F 1 "PMOS_AP40P05" V 8390 5100 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8250 5200 50  0001 C CNN
 F 3 "~" H 8050 5100 50  0001 C CNN
+F 4 "P-Channel mosfet 40V 5A RDS ON 65mΩ, Gate threshold -1.6V SMD SOT-23" H 8050 5100 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP40P05_C2886385.html" H 8050 5100 50  0001 C CNN "Link"
+F 6 "10" H 8050 5100 50  0001 C CNN "MOQ"
+F 7 "AP40P05" H 8050 5100 50  0001 C CNN "MPN"
+F 8 "ALLPOWER(ShenZhen Quan Li Semiconductor)" H 8050 5100 50  0001 C CNN "Manufacturer"
+F 9 "0.033" H 8050 5100 50  0001 C CNN "Price"
+F 10 "C2886385" H 8050 5100 50  0001 C CNN "VPN"
+F 11 "LCSC" H 8050 5100 50  0001 C CNN "Vendor"
 	1    8050 5100
 	0    1    1    0   
 $EndComp
@@ -504,6 +750,14 @@ F 0 "Q15" H 8155 4446 50  0000 L CNN
 F 1 "NMOS_YJL03N06A" H 8155 4355 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8150 4500 50  0001 C CNN
 F 3 "~" H 7950 4400 50  0001 C CNN
+F 4 "LCSC" H 7950 4400 50  0001 C CNN "Vendor"
+F 5 "N-Channel mosfet 60V 3A RDS ON 86mΩ, Gate threshold 1.3V SMD SOT-23" H 7950 4400 50  0001 C CNN "Description"
+F 6 "https://lcsc.com/product-detail/MOSFETs_Yangzhou-Yangjie-Elec-Tech-YJL03N06A_C699294.html" H 7950 4400 50  0001 C CNN "Link"
+F 7 "10" H 7950 4400 50  0001 C CNN "MOQ"
+F 8 "YJL03N06A" H 7950 4400 50  0001 C CNN "MPN"
+F 9 "Yangzhou Yangjie Elec Tech" H 7950 4400 50  0001 C CNN "Manufacturer"
+F 10 "0.038" H 7950 4400 50  0001 C CNN "Price"
+F 11 "C699294" H 7950 4400 50  0001 C CNN "VPN"
 	1    7950 4400
 	-1   0    0    1   
 $EndComp
@@ -519,13 +773,21 @@ F 3 "" H 7850 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R36
+L Device:R R37
 U 1 1 61D47959
 P 8150 4250
-F 0 "R36" V 7943 4250 50  0000 C CNN
+F 0 "R37" V 7943 4250 50  0000 C CNN
 F 1 "10K" V 8034 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 4250 50  0001 C CNN
 F 3 "~" H 8150 4250 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 8150 4250 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 8150 4250 50  0001 C CNN "Link"
+F 6 "50" H 8150 4250 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 8150 4250 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 8150 4250 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 8150 4250 50  0001 C CNN "Price"
+F 10 "C57859 " H 8150 4250 50  0001 C CNN "VPN"
+F 11 "LCSC" H 8150 4250 50  0001 C CNN "Vendor"
 	1    8150 4250
 	-1   0    0    1   
 $EndComp
@@ -535,24 +797,40 @@ Wire Wire Line
 	7850 4100 7850 4200
 Connection ~ 7850 4100
 $Comp
-L Device:R R35
+L Device:R R36
 U 1 1 61D47966
 P 7850 5050
-F 0 "R35" V 7643 5050 50  0000 C CNN
+F 0 "R36" V 7643 5050 50  0000 C CNN
 F 1 "10K" V 7734 5050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7780 5050 50  0001 C CNN
 F 3 "~" H 7850 5050 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 7850 5050 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 7850 5050 50  0001 C CNN "Link"
+F 6 "50" H 7850 5050 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 7850 5050 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 7850 5050 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 7850 5050 50  0001 C CNN "Price"
+F 10 "C57859 " H 7850 5050 50  0001 C CNN "VPN"
+F 11 "LCSC" H 7850 5050 50  0001 C CNN "Vendor"
 	1    7850 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R34
+L Device:R R35
 U 1 1 61D47970
 P 7850 4750
-F 0 "R34" V 7643 4750 50  0000 C CNN
+F 0 "R35" V 7643 4750 50  0000 C CNN
 F 1 "10K" V 7734 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7780 4750 50  0001 C CNN
 F 3 "~" H 7850 4750 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 7850 4750 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 7850 4750 50  0001 C CNN "Link"
+F 6 "50" H 7850 4750 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 7850 4750 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 7850 4750 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 7850 4750 50  0001 C CNN "Price"
+F 10 "C57859 " H 7850 4750 50  0001 C CNN "VPN"
+F 11 "LCSC" H 7850 4750 50  0001 C CNN "Vendor"
 	1    7850 4750
 	-1   0    0    1   
 $EndComp
@@ -570,13 +848,21 @@ Text GLabel 8600 4400 2    50   Input ~ 0
 P3
 Connection ~ 8150 4400
 $Comp
-L Device:R R37
+L Device:R R38
 U 1 1 61D4798F
 P 8300 4550
-F 0 "R37" V 8093 4550 50  0000 C CNN
+F 0 "R38" V 8093 4550 50  0000 C CNN
 F 1 "300" V 8184 4550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8230 4550 50  0001 C CNN
 F 3 "~" H 8300 4550 50  0001 C CNN
+F 4 "Resistor 300 Ohm SMD 0805 " H 8300 4550 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F3000T5E_C61685.html" H 8300 4550 50  0001 C CNN "Link"
+F 6 "50" H 8300 4550 50  0001 C CNN "MOQ"
+F 7 "TC0525F3000T5E" H 8300 4550 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 8300 4550 50  0001 C CNN "Manufacturer"
+F 9 "0.008" H 8300 4550 50  0001 C CNN "Price"
+F 10 "C61685" H 8300 4550 50  0001 C CNN "VPN"
+F 11 "LCSC" H 8300 4550 50  0001 C CNN "Vendor"
 	1    8300 4550
 	1    0    0    -1  
 $EndComp
@@ -588,16 +874,24 @@ F 0 "D14" H 8450 4450 50  0000 C CNN
 F 1 "Y-LED" H 8400 4550 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 8450 4700 50  0001 C CNN
 F 3 "~" H 8450 4700 50  0001 C CNN
+F 4 "Yellow Led SMD 0805 " H 8450 4700 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yellow-light-SMDLED-105-125mcd_C84261.html" H 8450 4700 50  0001 C CNN "Link"
+F 6 "NCD0805Y1 " H 8450 4700 50  0001 C CNN "MPN"
+F 7 "Foshan NationStar " H 8450 4700 50  0001 C CNN "Manufacturer"
+F 8 "C84261" H 8450 4700 50  0001 C CNN "VPN"
+F 9 "LCSC" H 8450 4700 50  0001 C CNN "Vendor"
+F 10 "50" H 8450 4700 50  0001 C CNN "MOQ"
+F 11 "0.019" H 8450 4700 50  0001 C CNN "Price"
 	1    8450 4700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	8150 4400 8300 4400
 $Comp
-L power:GND #PWR040
+L power:GND #PWR039
 U 1 1 61D479A6
 P 8600 4700
-F 0 "#PWR040" H 8600 4450 50  0001 C CNN
+F 0 "#PWR039" H 8600 4450 50  0001 C CNN
 F 1 "GND" H 8605 4527 50  0000 C CNN
 F 2 "" H 8600 4700 50  0001 C CNN
 F 3 "" H 8600 4700 50  0001 C CNN
@@ -609,13 +903,21 @@ P3
 Text GLabel 5400 1150 3    50   Input ~ 0
 Relay4
 $Comp
-L Device:Q_PMOS_GSD Q19
+L Device:Q_PMOS_GSD Q18
 U 1 1 61D5F9D2
 P 10100 5100
-F 0 "Q19" V 10349 5100 50  0000 C CNN
+F 0 "Q18" V 10349 5100 50  0000 C CNN
 F 1 "PMOS_AP40P05" V 10440 5100 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 5200 50  0001 C CNN
 F 3 "~" H 10100 5100 50  0001 C CNN
+F 4 "P-Channel mosfet 40V 5A RDS ON 65mΩ, Gate threshold -1.6V SMD SOT-23" H 10100 5100 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP40P05_C2886385.html" H 10100 5100 50  0001 C CNN "Link"
+F 6 "10" H 10100 5100 50  0001 C CNN "MOQ"
+F 7 "AP40P05" H 10100 5100 50  0001 C CNN "MPN"
+F 8 "ALLPOWER(ShenZhen Quan Li Semiconductor)" H 10100 5100 50  0001 C CNN "Manufacturer"
+F 9 "0.033" H 10100 5100 50  0001 C CNN "Price"
+F 10 "C2886385" H 10100 5100 50  0001 C CNN "VPN"
+F 11 "LCSC" H 10100 5100 50  0001 C CNN "Vendor"
 	1    10100 5100
 	0    1    1    0   
 $EndComp
@@ -627,14 +929,22 @@ F 0 "Q17" H 10205 4446 50  0000 L CNN
 F 1 "NMOS_YJL03N06A" H 10205 4355 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10200 4500 50  0001 C CNN
 F 3 "~" H 10000 4400 50  0001 C CNN
+F 4 "LCSC" H 10000 4400 50  0001 C CNN "Vendor"
+F 5 "N-Channel mosfet 60V 3A RDS ON 86mΩ, Gate threshold 1.3V SMD SOT-23" H 10000 4400 50  0001 C CNN "Description"
+F 6 "https://lcsc.com/product-detail/MOSFETs_Yangzhou-Yangjie-Elec-Tech-YJL03N06A_C699294.html" H 10000 4400 50  0001 C CNN "Link"
+F 7 "10" H 10000 4400 50  0001 C CNN "MOQ"
+F 8 "YJL03N06A" H 10000 4400 50  0001 C CNN "MPN"
+F 9 "Yangzhou Yangjie Elec Tech" H 10000 4400 50  0001 C CNN "Manufacturer"
+F 10 "0.038" H 10000 4400 50  0001 C CNN "Price"
+F 11 "C699294" H 10000 4400 50  0001 C CNN "VPN"
 	1    10000 4400
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR044
+L power:GND #PWR042
 U 1 1 61D5FEA6
 P 9900 4100
-F 0 "#PWR044" H 9900 3850 50  0001 C CNN
+F 0 "#PWR042" H 9900 3850 50  0001 C CNN
 F 1 "GND" H 9905 3927 50  0000 C CNN
 F 2 "" H 9900 4100 50  0001 C CNN
 F 3 "" H 9900 4100 50  0001 C CNN
@@ -642,13 +952,21 @@ F 3 "" H 9900 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R43
+L Device:R R46
 U 1 1 61D5FEB0
 P 10200 4250
-F 0 "R43" V 9993 4250 50  0000 C CNN
+F 0 "R46" V 9993 4250 50  0000 C CNN
 F 1 "10K" V 10084 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10130 4250 50  0001 C CNN
 F 3 "~" H 10200 4250 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 10200 4250 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 10200 4250 50  0001 C CNN "Link"
+F 6 "50" H 10200 4250 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 10200 4250 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 10200 4250 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 10200 4250 50  0001 C CNN "Price"
+F 10 "C57859 " H 10200 4250 50  0001 C CNN "VPN"
+F 11 "LCSC" H 10200 4250 50  0001 C CNN "Vendor"
 	1    10200 4250
 	-1   0    0    1   
 $EndComp
@@ -658,24 +976,40 @@ Wire Wire Line
 	9900 4100 9900 4200
 Connection ~ 9900 4100
 $Comp
-L Device:R R42
+L Device:R R45
 U 1 1 61D5FEBD
 P 9900 5050
-F 0 "R42" V 9693 5050 50  0000 C CNN
+F 0 "R45" V 9693 5050 50  0000 C CNN
 F 1 "10K" V 9784 5050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9830 5050 50  0001 C CNN
 F 3 "~" H 9900 5050 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 9900 5050 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 9900 5050 50  0001 C CNN "Link"
+F 6 "50" H 9900 5050 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 9900 5050 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 9900 5050 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 9900 5050 50  0001 C CNN "Price"
+F 10 "C57859 " H 9900 5050 50  0001 C CNN "VPN"
+F 11 "LCSC" H 9900 5050 50  0001 C CNN "Vendor"
 	1    9900 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R41
+L Device:R R44
 U 1 1 61D5FEC7
 P 9900 4750
-F 0 "R41" V 9693 4750 50  0000 C CNN
+F 0 "R44" V 9693 4750 50  0000 C CNN
 F 1 "10K" V 9784 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9830 4750 50  0001 C CNN
 F 3 "~" H 9900 4750 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 9900 4750 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 9900 4750 50  0001 C CNN "Link"
+F 6 "50" H 9900 4750 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 9900 4750 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 9900 4750 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 9900 4750 50  0001 C CNN "Price"
+F 10 "C57859 " H 9900 4750 50  0001 C CNN "VPN"
+F 11 "LCSC" H 9900 4750 50  0001 C CNN "Vendor"
 	1    9900 4750
 	-1   0    0    1   
 $EndComp
@@ -693,13 +1027,21 @@ Text GLabel 10700 4400 2    50   Input ~ 0
 P4
 Connection ~ 10200 4400
 $Comp
-L Device:R R44
+L Device:R R47
 U 1 1 61D5FEE6
 P 10350 4550
-F 0 "R44" V 10143 4550 50  0000 C CNN
+F 0 "R47" V 10143 4550 50  0000 C CNN
 F 1 "300" V 10234 4550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10280 4550 50  0001 C CNN
 F 3 "~" H 10350 4550 50  0001 C CNN
+F 4 "Resistor 300 Ohm SMD 0805 " H 10350 4550 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F3000T5E_C61685.html" H 10350 4550 50  0001 C CNN "Link"
+F 6 "50" H 10350 4550 50  0001 C CNN "MOQ"
+F 7 "TC0525F3000T5E" H 10350 4550 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 10350 4550 50  0001 C CNN "Manufacturer"
+F 9 "0.008" H 10350 4550 50  0001 C CNN "Price"
+F 10 "C61685" H 10350 4550 50  0001 C CNN "VPN"
+F 11 "LCSC" H 10350 4550 50  0001 C CNN "Vendor"
 	1    10350 4550
 	1    0    0    -1  
 $EndComp
@@ -711,16 +1053,24 @@ F 0 "D16" H 10500 4450 50  0000 C CNN
 F 1 "G-LED" H 10450 4550 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 10500 4700 50  0001 C CNN
 F 3 "~" H 10500 4700 50  0001 C CNN
+F 4 "Green Led SMD 0805 " H 10500 4700 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yellow-light-SMDLED-105-125mcd_C84261.html" H 10500 4700 50  0001 C CNN "Link"
+F 6 "20" H 10500 4700 50  0001 C CNN "MOQ"
+F 7 "NCD0805G1" H 10500 4700 50  0001 C CNN "MPN"
+F 8 "Foshan NationStar Optoelectronics " H 10500 4700 50  0001 C CNN "Manufacturer"
+F 9 "0.021" H 10500 4700 50  0001 C CNN "Price"
+F 10 "C84260 " H 10500 4700 50  0001 C CNN "VPN"
+F 11 "LCSC" H 10500 4700 50  0001 C CNN "Vendor"
 	1    10500 4700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	10200 4400 10350 4400
 $Comp
-L power:GND #PWR046
+L power:GND #PWR045
 U 1 1 61D5FEFD
 P 10650 4700
-F 0 "#PWR046" H 10650 4450 50  0001 C CNN
+F 0 "#PWR045" H 10650 4450 50  0001 C CNN
 F 1 "GND" H 10655 4527 50  0000 C CNN
 F 2 "" H 10650 4700 50  0001 C CNN
 F 3 "" H 10650 4700 50  0001 C CNN
@@ -739,6 +1089,14 @@ F 0 "Q4" V 1849 7050 50  0000 C CNN
 F 1 "PMOS_AP40P05" V 1940 7050 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1800 7150 50  0001 C CNN
 F 3 "~" H 1600 7050 50  0001 C CNN
+F 4 "P-Channel mosfet 40V 5A RDS ON 65mΩ, Gate threshold -1.6V SMD SOT-23" H 1600 7050 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP40P05_C2886385.html" H 1600 7050 50  0001 C CNN "Link"
+F 6 "10" H 1600 7050 50  0001 C CNN "MOQ"
+F 7 "AP40P05" H 1600 7050 50  0001 C CNN "MPN"
+F 8 "ALLPOWER(ShenZhen Quan Li Semiconductor)" H 1600 7050 50  0001 C CNN "Manufacturer"
+F 9 "0.033" H 1600 7050 50  0001 C CNN "Price"
+F 10 "C2886385" H 1600 7050 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1600 7050 50  0001 C CNN "Vendor"
 	1    1600 7050
 	0    1    1    0   
 $EndComp
@@ -750,6 +1108,14 @@ F 0 "Q2" H 1705 6396 50  0000 L CNN
 F 1 "NMOS_YJL03N06A" H 1705 6305 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1700 6450 50  0001 C CNN
 F 3 "~" H 1500 6350 50  0001 C CNN
+F 4 "LCSC" H 1500 6350 50  0001 C CNN "Vendor"
+F 5 "N-Channel mosfet 60V 3A RDS ON 86mΩ, Gate threshold 1.3V SMD SOT-23" H 1500 6350 50  0001 C CNN "Description"
+F 6 "https://lcsc.com/product-detail/MOSFETs_Yangzhou-Yangjie-Elec-Tech-YJL03N06A_C699294.html" H 1500 6350 50  0001 C CNN "Link"
+F 7 "10" H 1500 6350 50  0001 C CNN "MOQ"
+F 8 "YJL03N06A" H 1500 6350 50  0001 C CNN "MPN"
+F 9 "Yangzhou Yangjie Elec Tech" H 1500 6350 50  0001 C CNN "Manufacturer"
+F 10 "0.038" H 1500 6350 50  0001 C CNN "Price"
+F 11 "C699294" H 1500 6350 50  0001 C CNN "VPN"
 	1    1500 6350
 	-1   0    0    1   
 $EndComp
@@ -772,6 +1138,14 @@ F 0 "R6" V 1493 6200 50  0000 C CNN
 F 1 "10K" V 1584 6200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1630 6200 50  0001 C CNN
 F 3 "~" H 1700 6200 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 1700 6200 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 1700 6200 50  0001 C CNN "Link"
+F 6 "50" H 1700 6200 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 1700 6200 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 1700 6200 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 1700 6200 50  0001 C CNN "Price"
+F 10 "C57859 " H 1700 6200 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1700 6200 50  0001 C CNN "Vendor"
 	1    1700 6200
 	-1   0    0    1   
 $EndComp
@@ -788,6 +1162,14 @@ F 0 "R4" V 1193 7000 50  0000 C CNN
 F 1 "10K" V 1284 7000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1330 7000 50  0001 C CNN
 F 3 "~" H 1400 7000 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 1400 7000 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 1400 7000 50  0001 C CNN "Link"
+F 6 "50" H 1400 7000 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 1400 7000 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 1400 7000 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 1400 7000 50  0001 C CNN "Price"
+F 10 "C57859 " H 1400 7000 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1400 7000 50  0001 C CNN "Vendor"
 	1    1400 7000
 	1    0    0    -1  
 $EndComp
@@ -799,6 +1181,14 @@ F 0 "R3" V 1193 6700 50  0000 C CNN
 F 1 "10K" V 1284 6700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1330 6700 50  0001 C CNN
 F 3 "~" H 1400 6700 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 1400 6700 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 1400 6700 50  0001 C CNN "Link"
+F 6 "50" H 1400 6700 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 1400 6700 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 1400 6700 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 1400 6700 50  0001 C CNN "Price"
+F 10 "C57859 " H 1400 6700 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1400 6700 50  0001 C CNN "Vendor"
 	1    1400 6700
 	-1   0    0    1   
 $EndComp
@@ -823,6 +1213,14 @@ F 0 "R8" V 1643 6500 50  0000 C CNN
 F 1 "300" V 1734 6500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1780 6500 50  0001 C CNN
 F 3 "~" H 1850 6500 50  0001 C CNN
+F 4 "Resistor 300 Ohm SMD 0805 " H 1850 6500 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F3000T5E_C61685.html" H 1850 6500 50  0001 C CNN "Link"
+F 6 "50" H 1850 6500 50  0001 C CNN "MOQ"
+F 7 "TC0525F3000T5E" H 1850 6500 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 1850 6500 50  0001 C CNN "Manufacturer"
+F 9 "0.008" H 1850 6500 50  0001 C CNN "Price"
+F 10 "C61685" H 1850 6500 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1850 6500 50  0001 C CNN "Vendor"
 	1    1850 6500
 	1    0    0    -1  
 $EndComp
@@ -834,6 +1232,14 @@ F 0 "D4" H 2000 6400 50  0000 C CNN
 F 1 "Y-LED" H 1950 6500 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 2000 6650 50  0001 C CNN
 F 3 "~" H 2000 6650 50  0001 C CNN
+F 4 "Yellow Led SMD 0805 " H 2000 6650 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yellow-light-SMDLED-105-125mcd_C84261.html" H 2000 6650 50  0001 C CNN "Link"
+F 6 "NCD0805Y1 " H 2000 6650 50  0001 C CNN "MPN"
+F 7 "Foshan NationStar " H 2000 6650 50  0001 C CNN "Manufacturer"
+F 8 "C84261" H 2000 6650 50  0001 C CNN "VPN"
+F 9 "LCSC" H 2000 6650 50  0001 C CNN "Vendor"
+F 10 "50" H 2000 6650 50  0001 C CNN "MOQ"
+F 11 "0.019" H 2000 6650 50  0001 C CNN "Price"
 	1    2000 6650
 	-1   0    0    1   
 $EndComp
@@ -860,6 +1266,14 @@ F 0 "Q7" V 3949 7050 50  0000 C CNN
 F 1 "PMOS_AP40P05" V 4040 7050 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3900 7150 50  0001 C CNN
 F 3 "~" H 3700 7050 50  0001 C CNN
+F 4 "P-Channel mosfet 40V 5A RDS ON 65mΩ, Gate threshold -1.6V SMD SOT-23" H 3700 7050 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP40P05_C2886385.html" H 3700 7050 50  0001 C CNN "Link"
+F 6 "10" H 3700 7050 50  0001 C CNN "MOQ"
+F 7 "AP40P05" H 3700 7050 50  0001 C CNN "MPN"
+F 8 "ALLPOWER(ShenZhen Quan Li Semiconductor)" H 3700 7050 50  0001 C CNN "Manufacturer"
+F 9 "0.033" H 3700 7050 50  0001 C CNN "Price"
+F 10 "C2886385" H 3700 7050 50  0001 C CNN "VPN"
+F 11 "LCSC" H 3700 7050 50  0001 C CNN "Vendor"
 	1    3700 7050
 	0    1    1    0   
 $EndComp
@@ -871,6 +1285,14 @@ F 0 "Q5" H 3805 6396 50  0000 L CNN
 F 1 "NMOS_YJL03N06A" H 3805 6305 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3800 6450 50  0001 C CNN
 F 3 "~" H 3600 6350 50  0001 C CNN
+F 4 "LCSC" H 3600 6350 50  0001 C CNN "Vendor"
+F 5 "N-Channel mosfet 60V 3A RDS ON 86mΩ, Gate threshold 1.3V SMD SOT-23" H 3600 6350 50  0001 C CNN "Description"
+F 6 "https://lcsc.com/product-detail/MOSFETs_Yangzhou-Yangjie-Elec-Tech-YJL03N06A_C699294.html" H 3600 6350 50  0001 C CNN "Link"
+F 7 "10" H 3600 6350 50  0001 C CNN "MOQ"
+F 8 "YJL03N06A" H 3600 6350 50  0001 C CNN "MPN"
+F 9 "Yangzhou Yangjie Elec Tech" H 3600 6350 50  0001 C CNN "Manufacturer"
+F 10 "0.038" H 3600 6350 50  0001 C CNN "Price"
+F 11 "C699294" H 3600 6350 50  0001 C CNN "VPN"
 	1    3600 6350
 	-1   0    0    1   
 $EndComp
@@ -893,6 +1315,14 @@ F 0 "R16" V 3593 6200 50  0000 C CNN
 F 1 "10K" V 3684 6200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3730 6200 50  0001 C CNN
 F 3 "~" H 3800 6200 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 3800 6200 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 3800 6200 50  0001 C CNN "Link"
+F 6 "50" H 3800 6200 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 3800 6200 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 3800 6200 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 3800 6200 50  0001 C CNN "Price"
+F 10 "C57859 " H 3800 6200 50  0001 C CNN "VPN"
+F 11 "LCSC" H 3800 6200 50  0001 C CNN "Vendor"
 	1    3800 6200
 	-1   0    0    1   
 $EndComp
@@ -909,6 +1339,14 @@ F 0 "R13" V 3293 7000 50  0000 C CNN
 F 1 "10K" V 3384 7000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3430 7000 50  0001 C CNN
 F 3 "~" H 3500 7000 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 3500 7000 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 3500 7000 50  0001 C CNN "Link"
+F 6 "50" H 3500 7000 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 3500 7000 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 3500 7000 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 3500 7000 50  0001 C CNN "Price"
+F 10 "C57859 " H 3500 7000 50  0001 C CNN "VPN"
+F 11 "LCSC" H 3500 7000 50  0001 C CNN "Vendor"
 	1    3500 7000
 	1    0    0    -1  
 $EndComp
@@ -920,6 +1358,14 @@ F 0 "R12" V 3293 6700 50  0000 C CNN
 F 1 "10K" V 3384 6700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3430 6700 50  0001 C CNN
 F 3 "~" H 3500 6700 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 3500 6700 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 3500 6700 50  0001 C CNN "Link"
+F 6 "50" H 3500 6700 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 3500 6700 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 3500 6700 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 3500 6700 50  0001 C CNN "Price"
+F 10 "C57859 " H 3500 6700 50  0001 C CNN "VPN"
+F 11 "LCSC" H 3500 6700 50  0001 C CNN "Vendor"
 	1    3500 6700
 	-1   0    0    1   
 $EndComp
@@ -944,6 +1390,14 @@ F 0 "R18" V 3743 6500 50  0000 C CNN
 F 1 "300" V 3834 6500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3880 6500 50  0001 C CNN
 F 3 "~" H 3950 6500 50  0001 C CNN
+F 4 "Resistor 300 Ohm SMD 0805 " H 3950 6500 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F3000T5E_C61685.html" H 3950 6500 50  0001 C CNN "Link"
+F 6 "50" H 3950 6500 50  0001 C CNN "MOQ"
+F 7 "TC0525F3000T5E" H 3950 6500 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 3950 6500 50  0001 C CNN "Manufacturer"
+F 9 "0.008" H 3950 6500 50  0001 C CNN "Price"
+F 10 "C61685" H 3950 6500 50  0001 C CNN "VPN"
+F 11 "LCSC" H 3950 6500 50  0001 C CNN "Vendor"
 	1    3950 6500
 	1    0    0    -1  
 $EndComp
@@ -955,6 +1409,14 @@ F 0 "D7" H 4100 6400 50  0000 C CNN
 F 1 "Y-LED" H 4050 6500 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 4100 6650 50  0001 C CNN
 F 3 "~" H 4100 6650 50  0001 C CNN
+F 4 "Yellow Led SMD 0805 " H 4100 6650 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yellow-light-SMDLED-105-125mcd_C84261.html" H 4100 6650 50  0001 C CNN "Link"
+F 6 "NCD0805Y1 " H 4100 6650 50  0001 C CNN "MPN"
+F 7 "Foshan NationStar " H 4100 6650 50  0001 C CNN "Manufacturer"
+F 8 "C84261" H 4100 6650 50  0001 C CNN "VPN"
+F 9 "LCSC" H 4100 6650 50  0001 C CNN "Vendor"
+F 10 "50" H 4100 6650 50  0001 C CNN "MOQ"
+F 11 "0.019" H 4100 6650 50  0001 C CNN "Price"
 	1    4100 6650
 	-1   0    0    1   
 $EndComp
@@ -978,32 +1440,48 @@ Relay7
 Text GLabel 5600 1150 3    50   Input ~ 0
 Relay6
 $Comp
-L Device:Q_PMOS_GSD Q10
+L Device:Q_PMOS_GSD Q11
 U 1 1 61E7D2FF
 P 5750 7050
-F 0 "Q10" V 5999 7050 50  0000 C CNN
+F 0 "Q11" V 5999 7050 50  0000 C CNN
 F 1 "PMOS_AP40P05" V 6090 7050 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5950 7150 50  0001 C CNN
 F 3 "~" H 5750 7050 50  0001 C CNN
+F 4 "P-Channel mosfet 40V 5A RDS ON 65mΩ, Gate threshold -1.6V SMD SOT-23" H 5750 7050 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP40P05_C2886385.html" H 5750 7050 50  0001 C CNN "Link"
+F 6 "10" H 5750 7050 50  0001 C CNN "MOQ"
+F 7 "AP40P05" H 5750 7050 50  0001 C CNN "MPN"
+F 8 "ALLPOWER(ShenZhen Quan Li Semiconductor)" H 5750 7050 50  0001 C CNN "Manufacturer"
+F 9 "0.033" H 5750 7050 50  0001 C CNN "Price"
+F 10 "C2886385" H 5750 7050 50  0001 C CNN "VPN"
+F 11 "LCSC" H 5750 7050 50  0001 C CNN "Vendor"
 	1    5750 7050
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q9
+L Device:Q_NMOS_GSD Q10
 U 1 1 61E7D9AD
 P 5650 6350
-F 0 "Q9" H 5855 6396 50  0000 L CNN
+F 0 "Q10" H 5855 6396 50  0000 L CNN
 F 1 "NMOS_YJL03N06A" H 5855 6305 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5850 6450 50  0001 C CNN
 F 3 "~" H 5650 6350 50  0001 C CNN
+F 4 "LCSC" H 5650 6350 50  0001 C CNN "Vendor"
+F 5 "N-Channel mosfet 60V 3A RDS ON 86mΩ, Gate threshold 1.3V SMD SOT-23" H 5650 6350 50  0001 C CNN "Description"
+F 6 "https://lcsc.com/product-detail/MOSFETs_Yangzhou-Yangjie-Elec-Tech-YJL03N06A_C699294.html" H 5650 6350 50  0001 C CNN "Link"
+F 7 "10" H 5650 6350 50  0001 C CNN "MOQ"
+F 8 "YJL03N06A" H 5650 6350 50  0001 C CNN "MPN"
+F 9 "Yangzhou Yangjie Elec Tech" H 5650 6350 50  0001 C CNN "Manufacturer"
+F 10 "0.038" H 5650 6350 50  0001 C CNN "Price"
+F 11 "C699294" H 5650 6350 50  0001 C CNN "VPN"
 	1    5650 6350
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR027
+L power:GND #PWR025
 U 1 1 61E7D9B7
 P 5550 6050
-F 0 "#PWR027" H 5550 5800 50  0001 C CNN
+F 0 "#PWR025" H 5550 5800 50  0001 C CNN
 F 1 "GND" H 5555 5877 50  0000 C CNN
 F 2 "" H 5550 6050 50  0001 C CNN
 F 3 "" H 5550 6050 50  0001 C CNN
@@ -1018,6 +1496,14 @@ F 0 "R26" V 5643 6200 50  0000 C CNN
 F 1 "10K" V 5734 6200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5780 6200 50  0001 C CNN
 F 3 "~" H 5850 6200 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 5850 6200 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 5850 6200 50  0001 C CNN "Link"
+F 6 "50" H 5850 6200 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 5850 6200 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 5850 6200 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 5850 6200 50  0001 C CNN "Price"
+F 10 "C57859 " H 5850 6200 50  0001 C CNN "VPN"
+F 11 "LCSC" H 5850 6200 50  0001 C CNN "Vendor"
 	1    5850 6200
 	-1   0    0    1   
 $EndComp
@@ -1034,6 +1520,14 @@ F 0 "R23" V 5343 7000 50  0000 C CNN
 F 1 "10K" V 5434 7000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5480 7000 50  0001 C CNN
 F 3 "~" H 5550 7000 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 5550 7000 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 5550 7000 50  0001 C CNN "Link"
+F 6 "50" H 5550 7000 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 5550 7000 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 5550 7000 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 5550 7000 50  0001 C CNN "Price"
+F 10 "C57859 " H 5550 7000 50  0001 C CNN "VPN"
+F 11 "LCSC" H 5550 7000 50  0001 C CNN "Vendor"
 	1    5550 7000
 	1    0    0    -1  
 $EndComp
@@ -1045,6 +1539,14 @@ F 0 "R22" V 5343 6700 50  0000 C CNN
 F 1 "10K" V 5434 6700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5480 6700 50  0001 C CNN
 F 3 "~" H 5550 6700 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 5550 6700 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 5550 6700 50  0001 C CNN "Link"
+F 6 "50" H 5550 6700 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 5550 6700 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 5550 6700 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 5550 6700 50  0001 C CNN "Price"
+F 10 "C57859 " H 5550 6700 50  0001 C CNN "VPN"
+F 11 "LCSC" H 5550 6700 50  0001 C CNN "Vendor"
 	1    5550 6700
 	-1   0    0    1   
 $EndComp
@@ -1069,6 +1571,14 @@ F 0 "R28" V 5793 6500 50  0000 C CNN
 F 1 "300" V 5884 6500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5930 6500 50  0001 C CNN
 F 3 "~" H 6000 6500 50  0001 C CNN
+F 4 "Resistor 300 Ohm SMD 0805 " H 6000 6500 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F3000T5E_C61685.html" H 6000 6500 50  0001 C CNN "Link"
+F 6 "50" H 6000 6500 50  0001 C CNN "MOQ"
+F 7 "TC0525F3000T5E" H 6000 6500 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 6000 6500 50  0001 C CNN "Manufacturer"
+F 9 "0.008" H 6000 6500 50  0001 C CNN "Price"
+F 10 "C61685" H 6000 6500 50  0001 C CNN "VPN"
+F 11 "LCSC" H 6000 6500 50  0001 C CNN "Vendor"
 	1    6000 6500
 	1    0    0    -1  
 $EndComp
@@ -1080,16 +1590,24 @@ F 0 "D10" H 6150 6400 50  0000 C CNN
 F 1 "Y-LED" H 6100 6500 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 6150 6650 50  0001 C CNN
 F 3 "~" H 6150 6650 50  0001 C CNN
+F 4 "Yellow Led SMD 0805 " H 6150 6650 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yellow-light-SMDLED-105-125mcd_C84261.html" H 6150 6650 50  0001 C CNN "Link"
+F 6 "NCD0805Y1 " H 6150 6650 50  0001 C CNN "MPN"
+F 7 "Foshan NationStar " H 6150 6650 50  0001 C CNN "Manufacturer"
+F 8 "C84261" H 6150 6650 50  0001 C CNN "VPN"
+F 9 "LCSC" H 6150 6650 50  0001 C CNN "Vendor"
+F 10 "50" H 6150 6650 50  0001 C CNN "MOQ"
+F 11 "0.019" H 6150 6650 50  0001 C CNN "Price"
 	1    6150 6650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5850 6350 6000 6350
 $Comp
-L power:GND #PWR030
+L power:GND #PWR029
 U 1 1 61E7DA0E
 P 6300 6650
-F 0 "#PWR030" H 6300 6400 50  0001 C CNN
+F 0 "#PWR029" H 6300 6400 50  0001 C CNN
 F 1 "GND" H 6305 6477 50  0000 C CNN
 F 2 "" H 6300 6650 50  0001 C CNN
 F 3 "" H 6300 6650 50  0001 C CNN
@@ -1145,10 +1663,10 @@ F 3 "" H 2450 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR026
+L power:GND #PWR027
 U 1 1 61F68F82
 P 5900 1650
-F 0 "#PWR026" H 5900 1400 50  0001 C CNN
+F 0 "#PWR027" H 5900 1400 50  0001 C CNN
 F 1 "GND" V 5905 1522 50  0000 R CNN
 F 2 "" H 5900 1650 50  0001 C CNN
 F 3 "" H 5900 1650 50  0001 C CNN
@@ -1163,6 +1681,14 @@ F 0 "D1" H 1950 5000 50  0000 R CNN
 F 1 "SS14" H 1950 5100 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA" H 1900 5200 50  0001 C CNN
 F 3 "~" H 1900 5200 50  0001 C CNN
+F 4 "Schottky Barrier Diodes 40V 1A SMD DO-214AC/SMA" H 1900 5200 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS14_C2480.html" H 1900 5200 50  0001 C CNN "Link"
+F 6 "20" H 1900 5200 50  0001 C CNN "MOQ"
+F 7 "SS14" H 1900 5200 50  0001 C CNN "MPN"
+F 8 "MDD（Microdiode Electronics)" H 1900 5200 50  0001 C CNN "Manufacturer"
+F 9 "0.018" H 1900 5200 50  0001 C CNN "Price"
+F 10 "C2480" H 1900 5200 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1900 5200 50  0001 C CNN "Vendor"
 	1    1900 5200
 	-1   0    0    1   
 $EndComp
@@ -1174,6 +1700,14 @@ F 0 "R9" V 1843 5350 50  0000 C CNN
 F 1 "1M" V 1934 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1980 5350 50  0001 C CNN
 F 3 "~" H 2050 5350 50  0001 C CNN
+F 4 "Resistor 1M SMD 0805 " H 2050 5350 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-TC0525F1004T5E_C75782.html" H 2050 5350 50  0001 C CNN "Link"
+F 6 "50" H 2050 5350 50  0001 C CNN "MOQ"
+F 7 "TC0525F1004T5E" H 2050 5350 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 2050 5350 50  0001 C CNN "Manufacturer"
+F 9 "0.009" H 2050 5350 50  0001 C CNN "Price"
+F 10 "C75782" H 2050 5350 50  0001 C CNN "VPN"
+F 11 "LCSC" H 2050 5350 50  0001 C CNN "Vendor"
 	1    2050 5350
 	-1   0    0    1   
 $EndComp
@@ -1196,6 +1730,14 @@ F 0 "D6" H 4150 5000 50  0000 R CNN
 F 1 "SS14" H 4150 5100 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA" H 4100 5200 50  0001 C CNN
 F 3 "~" H 4100 5200 50  0001 C CNN
+F 4 "Schottky Barrier Diodes 40V 1A SMD DO-214AC/SMA" H 4100 5200 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS14_C2480.html" H 4100 5200 50  0001 C CNN "Link"
+F 6 "20" H 4100 5200 50  0001 C CNN "MOQ"
+F 7 "SS14" H 4100 5200 50  0001 C CNN "MPN"
+F 8 "MDD（Microdiode Electronics)" H 4100 5200 50  0001 C CNN "Manufacturer"
+F 9 "0.018" H 4100 5200 50  0001 C CNN "Price"
+F 10 "C2480" H 4100 5200 50  0001 C CNN "VPN"
+F 11 "LCSC" H 4100 5200 50  0001 C CNN "Vendor"
 	1    4100 5200
 	-1   0    0    1   
 $EndComp
@@ -1207,6 +1749,14 @@ F 0 "R21" V 4043 5350 50  0000 C CNN
 F 1 "1M" V 4134 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4180 5350 50  0001 C CNN
 F 3 "~" H 4250 5350 50  0001 C CNN
+F 4 "Resistor 1M SMD 0805 " H 4250 5350 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-TC0525F1004T5E_C75782.html" H 4250 5350 50  0001 C CNN "Link"
+F 6 "50" H 4250 5350 50  0001 C CNN "MOQ"
+F 7 "TC0525F1004T5E" H 4250 5350 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 4250 5350 50  0001 C CNN "Manufacturer"
+F 9 "0.009" H 4250 5350 50  0001 C CNN "Price"
+F 10 "C75782" H 4250 5350 50  0001 C CNN "VPN"
+F 11 "LCSC" H 4250 5350 50  0001 C CNN "Vendor"
 	1    4250 5350
 	-1   0    0    1   
 $EndComp
@@ -1229,6 +1779,14 @@ F 0 "D11" H 6300 5000 50  0000 R CNN
 F 1 "SS14" H 6300 5100 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA" H 6250 5200 50  0001 C CNN
 F 3 "~" H 6250 5200 50  0001 C CNN
+F 4 "Schottky Barrier Diodes 40V 1A SMD DO-214AC/SMA" H 6250 5200 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS14_C2480.html" H 6250 5200 50  0001 C CNN "Link"
+F 6 "20" H 6250 5200 50  0001 C CNN "MOQ"
+F 7 "SS14" H 6250 5200 50  0001 C CNN "MPN"
+F 8 "MDD（Microdiode Electronics)" H 6250 5200 50  0001 C CNN "Manufacturer"
+F 9 "0.018" H 6250 5200 50  0001 C CNN "Price"
+F 10 "C2480" H 6250 5200 50  0001 C CNN "VPN"
+F 11 "LCSC" H 6250 5200 50  0001 C CNN "Vendor"
 	1    6250 5200
 	-1   0    0    1   
 $EndComp
@@ -1240,6 +1798,14 @@ F 0 "R31" V 6193 5350 50  0000 C CNN
 F 1 "1M" V 6284 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 5350 50  0001 C CNN
 F 3 "~" H 6400 5350 50  0001 C CNN
+F 4 "Resistor 1M SMD 0805 " H 6400 5350 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-TC0525F1004T5E_C75782.html" H 6400 5350 50  0001 C CNN "Link"
+F 6 "50" H 6400 5350 50  0001 C CNN "MOQ"
+F 7 "TC0525F1004T5E" H 6400 5350 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 6400 5350 50  0001 C CNN "Manufacturer"
+F 9 "0.009" H 6400 5350 50  0001 C CNN "Price"
+F 10 "C75782" H 6400 5350 50  0001 C CNN "VPN"
+F 11 "LCSC" H 6400 5350 50  0001 C CNN "Vendor"
 	1    6400 5350
 	-1   0    0    1   
 $EndComp
@@ -1255,21 +1821,29 @@ F 3 "" H 6400 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R38
+L Device:R R39
 U 1 1 620D328D
 P 8550 5350
-F 0 "R38" V 8343 5350 50  0000 C CNN
+F 0 "R39" V 8343 5350 50  0000 C CNN
 F 1 "1M" V 8434 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8480 5350 50  0001 C CNN
 F 3 "~" H 8550 5350 50  0001 C CNN
+F 4 "Resistor 1M SMD 0805 " H 8550 5350 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-TC0525F1004T5E_C75782.html" H 8550 5350 50  0001 C CNN "Link"
+F 6 "50" H 8550 5350 50  0001 C CNN "MOQ"
+F 7 "TC0525F1004T5E" H 8550 5350 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 8550 5350 50  0001 C CNN "Manufacturer"
+F 9 "0.009" H 8550 5350 50  0001 C CNN "Price"
+F 10 "C75782" H 8550 5350 50  0001 C CNN "VPN"
+F 11 "LCSC" H 8550 5350 50  0001 C CNN "Vendor"
 	1    8550 5350
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR039
+L power:GND #PWR038
 U 1 1 620D329A
 P 8550 5500
-F 0 "#PWR039" H 8550 5250 50  0001 C CNN
+F 0 "#PWR038" H 8550 5250 50  0001 C CNN
 F 1 "GND" V 8555 5372 50  0000 R CNN
 F 2 "" H 8550 5500 50  0001 C CNN
 F 3 "" H 8550 5500 50  0001 C CNN
@@ -1284,25 +1858,41 @@ F 0 "D15" H 10500 5000 50  0000 R CNN
 F 1 "SS14" H 10500 5100 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA" H 10450 5200 50  0001 C CNN
 F 3 "~" H 10450 5200 50  0001 C CNN
+F 4 "Schottky Barrier Diodes 40V 1A SMD DO-214AC/SMA" H 10450 5200 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS14_C2480.html" H 10450 5200 50  0001 C CNN "Link"
+F 6 "20" H 10450 5200 50  0001 C CNN "MOQ"
+F 7 "SS14" H 10450 5200 50  0001 C CNN "MPN"
+F 8 "MDD（Microdiode Electronics)" H 10450 5200 50  0001 C CNN "Manufacturer"
+F 9 "0.018" H 10450 5200 50  0001 C CNN "Price"
+F 10 "C2480" H 10450 5200 50  0001 C CNN "VPN"
+F 11 "LCSC" H 10450 5200 50  0001 C CNN "Vendor"
 	1    10450 5200
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R45
+L Device:R R48
 U 1 1 6211C7EC
 P 10600 5350
-F 0 "R45" V 10393 5350 50  0000 C CNN
+F 0 "R48" V 10393 5350 50  0000 C CNN
 F 1 "1M" V 10484 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10530 5350 50  0001 C CNN
 F 3 "~" H 10600 5350 50  0001 C CNN
+F 4 "Resistor 1M SMD 0805 " H 10600 5350 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-TC0525F1004T5E_C75782.html" H 10600 5350 50  0001 C CNN "Link"
+F 6 "50" H 10600 5350 50  0001 C CNN "MOQ"
+F 7 "TC0525F1004T5E" H 10600 5350 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 10600 5350 50  0001 C CNN "Manufacturer"
+F 9 "0.009" H 10600 5350 50  0001 C CNN "Price"
+F 10 "C75782" H 10600 5350 50  0001 C CNN "VPN"
+F 11 "LCSC" H 10600 5350 50  0001 C CNN "Vendor"
 	1    10600 5350
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR045
+L power:GND #PWR044
 U 1 1 6211C7F9
 P 10600 5500
-F 0 "#PWR045" H 10600 5250 50  0001 C CNN
+F 0 "#PWR044" H 10600 5250 50  0001 C CNN
 F 1 "GND" V 10605 5372 50  0000 R CNN
 F 2 "" H 10600 5500 50  0001 C CNN
 F 3 "" H 10600 5500 50  0001 C CNN
@@ -1317,6 +1907,14 @@ F 0 "D3" H 2000 6950 50  0000 R CNN
 F 1 "SS14" H 2000 7050 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA" H 1950 7150 50  0001 C CNN
 F 3 "~" H 1950 7150 50  0001 C CNN
+F 4 "Schottky Barrier Diodes 40V 1A SMD DO-214AC/SMA" H 1950 7150 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS14_C2480.html" H 1950 7150 50  0001 C CNN "Link"
+F 6 "20" H 1950 7150 50  0001 C CNN "MOQ"
+F 7 "SS14" H 1950 7150 50  0001 C CNN "MPN"
+F 8 "MDD（Microdiode Electronics)" H 1950 7150 50  0001 C CNN "Manufacturer"
+F 9 "0.018" H 1950 7150 50  0001 C CNN "Price"
+F 10 "C2480" H 1950 7150 50  0001 C CNN "VPN"
+F 11 "LCSC" H 1950 7150 50  0001 C CNN "Vendor"
 	1    1950 7150
 	-1   0    0    1   
 $EndComp
@@ -1328,6 +1926,14 @@ F 0 "R10" V 1893 7300 50  0000 C CNN
 F 1 "1M" V 1984 7300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 7300 50  0001 C CNN
 F 3 "~" H 2100 7300 50  0001 C CNN
+F 4 "Resistor 1M SMD 0805 " H 2100 7300 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-TC0525F1004T5E_C75782.html" H 2100 7300 50  0001 C CNN "Link"
+F 6 "50" H 2100 7300 50  0001 C CNN "MOQ"
+F 7 "TC0525F1004T5E" H 2100 7300 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 2100 7300 50  0001 C CNN "Manufacturer"
+F 9 "0.009" H 2100 7300 50  0001 C CNN "Price"
+F 10 "C75782" H 2100 7300 50  0001 C CNN "VPN"
+F 11 "LCSC" H 2100 7300 50  0001 C CNN "Vendor"
 	1    2100 7300
 	-1   0    0    1   
 $EndComp
@@ -1350,6 +1956,14 @@ F 0 "D5" H 4100 6950 50  0000 R CNN
 F 1 "SS14" H 4100 7050 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA" H 4050 7150 50  0001 C CNN
 F 3 "~" H 4050 7150 50  0001 C CNN
+F 4 "Schottky Barrier Diodes 40V 1A SMD DO-214AC/SMA" H 4050 7150 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS14_C2480.html" H 4050 7150 50  0001 C CNN "Link"
+F 6 "20" H 4050 7150 50  0001 C CNN "MOQ"
+F 7 "SS14" H 4050 7150 50  0001 C CNN "MPN"
+F 8 "MDD（Microdiode Electronics)" H 4050 7150 50  0001 C CNN "Manufacturer"
+F 9 "0.018" H 4050 7150 50  0001 C CNN "Price"
+F 10 "C2480" H 4050 7150 50  0001 C CNN "VPN"
+F 11 "LCSC" H 4050 7150 50  0001 C CNN "Vendor"
 	1    4050 7150
 	-1   0    0    1   
 $EndComp
@@ -1361,6 +1975,14 @@ F 0 "R20" V 3993 7300 50  0000 C CNN
 F 1 "1M" V 4084 7300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 7300 50  0001 C CNN
 F 3 "~" H 4200 7300 50  0001 C CNN
+F 4 "Resistor 1M SMD 0805 " H 4200 7300 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-TC0525F1004T5E_C75782.html" H 4200 7300 50  0001 C CNN "Link"
+F 6 "50" H 4200 7300 50  0001 C CNN "MOQ"
+F 7 "TC0525F1004T5E" H 4200 7300 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 4200 7300 50  0001 C CNN "Manufacturer"
+F 9 "0.009" H 4200 7300 50  0001 C CNN "Price"
+F 10 "C75782" H 4200 7300 50  0001 C CNN "VPN"
+F 11 "LCSC" H 4200 7300 50  0001 C CNN "Vendor"
 	1    4200 7300
 	-1   0    0    1   
 $EndComp
@@ -1383,6 +2005,14 @@ F 0 "D9" H 6150 6950 50  0000 R CNN
 F 1 "SS14" H 6150 7050 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA" H 6100 7150 50  0001 C CNN
 F 3 "~" H 6100 7150 50  0001 C CNN
+F 4 "Schottky Barrier Diodes 40V 1A SMD DO-214AC/SMA" H 6100 7150 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS14_C2480.html" H 6100 7150 50  0001 C CNN "Link"
+F 6 "20" H 6100 7150 50  0001 C CNN "MOQ"
+F 7 "SS14" H 6100 7150 50  0001 C CNN "MPN"
+F 8 "MDD（Microdiode Electronics)" H 6100 7150 50  0001 C CNN "Manufacturer"
+F 9 "0.018" H 6100 7150 50  0001 C CNN "Price"
+F 10 "C2480" H 6100 7150 50  0001 C CNN "VPN"
+F 11 "LCSC" H 6100 7150 50  0001 C CNN "Vendor"
 	1    6100 7150
 	-1   0    0    1   
 $EndComp
@@ -1394,14 +2024,22 @@ F 0 "R30" V 6043 7300 50  0000 C CNN
 F 1 "1M" V 6134 7300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6180 7300 50  0001 C CNN
 F 3 "~" H 6250 7300 50  0001 C CNN
+F 4 "Resistor 1M SMD 0805 " H 6250 7300 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-TC0525F1004T5E_C75782.html" H 6250 7300 50  0001 C CNN "Link"
+F 6 "50" H 6250 7300 50  0001 C CNN "MOQ"
+F 7 "TC0525F1004T5E" H 6250 7300 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 6250 7300 50  0001 C CNN "Manufacturer"
+F 9 "0.009" H 6250 7300 50  0001 C CNN "Price"
+F 10 "C75782" H 6250 7300 50  0001 C CNN "VPN"
+F 11 "LCSC" H 6250 7300 50  0001 C CNN "Vendor"
 	1    6250 7300
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR029
+L power:GND #PWR028
 U 1 1 622562F6
 P 6250 7450
-F 0 "#PWR029" H 6250 7200 50  0001 C CNN
+F 0 "#PWR028" H 6250 7200 50  0001 C CNN
 F 1 "GND" V 6255 7322 50  0000 R CNN
 F 2 "" H 6250 7450 50  0001 C CNN
 F 3 "" H 6250 7450 50  0001 C CNN
@@ -1409,10 +2047,10 @@ F 3 "" H 6250 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR035
+L power:GND #PWR036
 U 1 1 623CB2BD
 P 7050 3300
-F 0 "#PWR035" H 7050 3050 50  0001 C CNN
+F 0 "#PWR036" H 7050 3050 50  0001 C CNN
 F 1 "GND" V 7055 3172 50  0000 R CNN
 F 2 "" H 7050 3300 50  0001 C CNN
 F 3 "" H 7050 3300 50  0001 C CNN
@@ -1474,14 +2112,22 @@ F 0 "R32" V 6343 1450 50  0000 C CNN
 F 1 "10K" V 6434 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6480 1450 50  0001 C CNN
 F 3 "~" H 6550 1450 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 6550 1450 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 6550 1450 50  0001 C CNN "Link"
+F 6 "50" H 6550 1450 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 6550 1450 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 6550 1450 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 6550 1450 50  0001 C CNN "Price"
+F 10 "C57859 " H 6550 1450 50  0001 C CNN "VPN"
+F 11 "LCSC" H 6550 1450 50  0001 C CNN "Vendor"
 	1    6550 1450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR031
+L power:GND #PWR030
 U 1 1 61CA51BB
 P 6400 1450
-F 0 "#PWR031" H 6400 1200 50  0001 C CNN
+F 0 "#PWR030" H 6400 1200 50  0001 C CNN
 F 1 "GND" V 6405 1322 50  0000 R CNN
 F 2 "" H 6400 1450 50  0001 C CNN
 F 3 "" H 6400 1450 50  0001 C CNN
@@ -1496,6 +2142,14 @@ F 0 "Q14" H 7105 2496 50  0000 L CNN
 F 1 "NMOS_YJL03N06A" H 7105 2405 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7100 2550 50  0001 C CNN
 F 3 "~" H 6900 2450 50  0001 C CNN
+F 4 "LCSC" H 6900 2450 50  0001 C CNN "Vendor"
+F 5 "N-Channel mosfet 60V 3A RDS ON 86mΩ, Gate threshold 1.3V SMD SOT-23" H 6900 2450 50  0001 C CNN "Description"
+F 6 "https://lcsc.com/product-detail/MOSFETs_Yangzhou-Yangjie-Elec-Tech-YJL03N06A_C699294.html" H 6900 2450 50  0001 C CNN "Link"
+F 7 "10" H 6900 2450 50  0001 C CNN "MOQ"
+F 8 "YJL03N06A" H 6900 2450 50  0001 C CNN "MPN"
+F 9 "Yangzhou Yangjie Elec Tech" H 6900 2450 50  0001 C CNN "Manufacturer"
+F 10 "0.038" H 6900 2450 50  0001 C CNN "Price"
+F 11 "C699294" H 6900 2450 50  0001 C CNN "VPN"
 	1    6900 2450
 	1    0    0    -1  
 $EndComp
@@ -1550,10 +2204,10 @@ RESET
 Text GLabel 7000 1750 2    50   Input ~ 0
 +3.3V
 $Comp
-L power:GND #PWR036
+L power:GND #PWR031
 U 1 1 61E9C208
 P 6400 2350
-F 0 "#PWR036" H 6400 2100 50  0001 C CNN
+F 0 "#PWR031" H 6400 2100 50  0001 C CNN
 F 1 "GND" V 6405 2222 50  0000 R CNN
 F 2 "" H 6400 2350 50  0001 C CNN
 F 3 "" H 6400 2350 50  0001 C CNN
@@ -1570,14 +2224,22 @@ F 0 "R33" V 6493 2050 50  0000 C CNN
 F 1 "2M" V 6584 2050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 2050 50  0001 C CNN
 F 3 "~" H 6700 2050 50  0001 C CNN
+F 4 "Resistor 2M SMD 0805 " H 6700 2050 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC0805J205-TS_C2907316.html" H 6700 2050 50  0001 C CNN "Link"
+F 6 "100" H 6700 2050 50  0001 C CNN "MOQ"
+F 7 "FRC0805J205 TS" H 6700 2050 50  0001 C CNN "MPN"
+F 8 "FOJAN" H 6700 2050 50  0001 C CNN "Manufacturer"
+F 9 "0.0015" H 6700 2050 50  0001 C CNN "Price"
+F 10 "C2907316" H 6700 2050 50  0001 C CNN "VPN"
+F 11 "LCSC" H 6700 2050 50  0001 C CNN "Vendor"
 	1    6700 2050
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR038
+L power:GND #PWR035
 U 1 1 61EADD37
 P 7000 2650
-F 0 "#PWR038" H 7000 2400 50  0001 C CNN
+F 0 "#PWR035" H 7000 2400 50  0001 C CNN
 F 1 "GND" V 7005 2522 50  0000 R CNN
 F 2 "" H 7000 2650 50  0001 C CNN
 F 3 "" H 7000 2650 50  0001 C CNN
@@ -1607,9 +2269,17 @@ L Device:D_Schottky D13
 U 1 1 620D3283
 P 8400 5200
 F 0 "D13" H 8450 5000 50  0000 R CNN
-F 1 "D_Schottky" H 8450 5100 50  0000 R CNN
+F 1 "SS14" H 8450 5100 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA" H 8400 5200 50  0001 C CNN
 F 3 "~" H 8400 5200 50  0001 C CNN
+F 4 "Schottky Barrier Diodes 40V 1A SMD DO-214AC/SMA" H 8400 5200 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS14_C2480.html" H 8400 5200 50  0001 C CNN "Link"
+F 6 "20" H 8400 5200 50  0001 C CNN "MOQ"
+F 7 "SS14" H 8400 5200 50  0001 C CNN "MPN"
+F 8 "MDD（Microdiode Electronics)" H 8400 5200 50  0001 C CNN "Manufacturer"
+F 9 "0.018" H 8400 5200 50  0001 C CNN "Price"
+F 10 "C2480" H 8400 5200 50  0001 C CNN "VPN"
+F 11 "LCSC" H 8400 5200 50  0001 C CNN "Vendor"
 	1    8400 5200
 	-1   0    0    1   
 $EndComp
@@ -1657,6 +2327,14 @@ F 0 "JP1" H 3800 2731 50  0000 C CNN
 F 1 "Jumper_3_Open" H 3800 2822 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 3800 2600 50  0001 C CNN
 F 3 "~" H 3800 2600 50  0001 C CNN
+F 4 "Solder Jumper pad (no components required)" H 3800 2600 50  0001 C CNN "Description"
+F 5 "NA" H 3800 2600 50  0001 C CNN "Link"
+F 6 "NA" H 3800 2600 50  0001 C CNN "MOQ"
+F 7 "NA" H 3800 2600 50  0001 C CNN "MPN"
+F 8 "NA" H 3800 2600 50  0001 C CNN "Manufacturer"
+F 9 "NA" H 3800 2600 50  0001 C CNN "Price"
+F 10 "NA" H 3800 2600 50  0001 C CNN "VPN"
+F 11 "NA" H 3800 2600 50  0001 C CNN "Vendor"
 	1    3800 2600
 	-1   0    0    1   
 $EndComp
@@ -1670,6 +2348,14 @@ F 0 "JP2" H 4400 2581 50  0000 C CNN
 F 1 "Jumper_3_Open" H 4400 2672 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 4400 2450 50  0001 C CNN
 F 3 "~" H 4400 2450 50  0001 C CNN
+F 4 "Solder Jumper pad (no components required)" H 4400 2450 50  0001 C CNN "Description"
+F 5 "NA" H 4400 2450 50  0001 C CNN "Link"
+F 6 "NA" H 4400 2450 50  0001 C CNN "MOQ"
+F 7 "NA" H 4400 2450 50  0001 C CNN "MPN"
+F 8 "NA" H 4400 2450 50  0001 C CNN "Manufacturer"
+F 9 "NA" H 4400 2450 50  0001 C CNN "Price"
+F 10 "NA" H 4400 2450 50  0001 C CNN "VPN"
+F 11 "NA" H 4400 2450 50  0001 C CNN "Vendor"
 	1    4400 2450
 	-1   0    0    1   
 $EndComp
@@ -1681,6 +2367,14 @@ F 0 "JP3" H 5000 2431 50  0000 C CNN
 F 1 "Jumper_3_Open" H 5000 2522 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 5000 2300 50  0001 C CNN
 F 3 "~" H 5000 2300 50  0001 C CNN
+F 4 "Solder Jumper pad (no components required)" H 5000 2300 50  0001 C CNN "Description"
+F 5 "NA" H 5000 2300 50  0001 C CNN "Link"
+F 6 "NA" H 5000 2300 50  0001 C CNN "MOQ"
+F 7 "NA" H 5000 2300 50  0001 C CNN "MPN"
+F 8 "NA" H 5000 2300 50  0001 C CNN "Manufacturer"
+F 9 "NA" H 5000 2300 50  0001 C CNN "Price"
+F 10 "NA" H 5000 2300 50  0001 C CNN "VPN"
+F 11 "NA" H 5000 2300 50  0001 C CNN "Vendor"
 	1    5000 2300
 	-1   0    0    1   
 $EndComp
@@ -1762,102 +2456,142 @@ NoConn ~ 850  2150
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 62381001
-P 10550 1400
-F 0 "J5" V 10550 1200 50  0000 R CNN
-F 1 "Vin" V 10450 1200 50  0000 R CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical" H 10550 1400 50  0001 C CNN
-F 3 "~" H 10550 1400 50  0001 C CNN
-	1    10550 1400
-	1    0    0    -1  
+P 8050 1300
+F 0 "J5" V 8250 1350 50  0000 R CNN
+F 1 "Vin" V 8150 1350 50  0000 R CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical" H 8050 1300 50  0001 C CNN
+F 3 "~" H 8050 1300 50  0001 C CNN
+F 4 "Pluggable terminal block 1x02 p.3.5 mm straight needle" H 8050 1300 50  0001 C CNN "Description"
+F 5 "https://it.aliexpress.com/item/1005002951707517.html?spm=a2g0o.9042311.0.0.7a244c4dXbH7Sk" H 8050 1300 50  0001 C CNN "Link"
+F 6 "NA" H 8050 1300 50  0001 C CNN "MOQ"
+F 7 "NA" H 8050 1300 50  0001 C CNN "MPN"
+F 8 "KF2EDG" H 8050 1300 50  0001 C CNN "Manufacturer"
+F 9 "NA" H 8050 1300 50  0001 C CNN "Price"
+F 10 "NA" H 8050 1300 50  0001 C CNN "VPN"
+F 11 "Aliexpress" H 8050 1300 50  0001 C CNN "Vendor"
+	1    8050 1300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR043
 U 1 1 6238A9A6
-P 10150 1700
-F 0 "#PWR043" H 10150 1450 50  0001 C CNN
-F 1 "GND" V 10155 1572 50  0000 R CNN
-F 2 "" H 10150 1700 50  0001 C CNN
-F 3 "" H 10150 1700 50  0001 C CNN
-	1    10150 1700
-	1    0    0    -1  
+P 8450 1100
+F 0 "#PWR043" H 8450 850 50  0001 C CNN
+F 1 "GND" V 8455 972 50  0000 R CNN
+F 2 "" H 8450 1100 50  0001 C CNN
+F 3 "" H 8450 1100 50  0001 C CNN
+	1    8450 1100
+	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Q_PMOS_GSD Q18
+L Device:Q_PMOS_GSD Q19
 U 1 1 62399165
-P 10150 1500
-F 0 "Q18" V 10399 1500 50  0000 C CNN
-F 1 "PMOS_AP40P05" V 10490 1500 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10350 1600 50  0001 C CNN
-F 3 "~" H 10150 1500 50  0001 C CNN
-	1    10150 1500
-	0    -1   -1   0   
+P 8450 1300
+F 0 "Q19" V 8699 1300 50  0000 C CNN
+F 1 "PMOS_AP40P05" V 8790 1300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8650 1400 50  0001 C CNN
+F 3 "~" H 8450 1300 50  0001 C CNN
+F 4 "P-Channel mosfet 40V 5A RDS ON 65mΩ, Gate threshold -1.6V SMD SOT-23" H 8450 1300 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP40P05_C2886385.html" H 8450 1300 50  0001 C CNN "Link"
+F 6 "10" H 8450 1300 50  0001 C CNN "MOQ"
+F 7 "AP40P05" H 8450 1300 50  0001 C CNN "MPN"
+F 8 "ALLPOWER(ShenZhen Quan Li Semiconductor)" H 8450 1300 50  0001 C CNN "Manufacturer"
+F 9 "0.033" H 8450 1300 50  0001 C CNN "Price"
+F 10 "C2886385" H 8450 1300 50  0001 C CNN "VPN"
+F 11 "LCSC" H 8450 1300 50  0001 C CNN "Vendor"
+	1    8450 1300
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10350 1500 10350 1700
+	8250 1300 8250 1100
 Wire Wire Line
-	10350 1700 10150 1700
-Connection ~ 10150 1700
+	8250 1100 8450 1100
+Connection ~ 8450 1100
 $Comp
 L Regulator_Linear:AMS1117-3.3 U3
 U 1 1 623C1072
-P 9250 1400
-F 0 "U3" H 9250 1642 50  0000 C CNN
-F 1 "AMS1117-3.3" H 9250 1551 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9250 1600 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 9350 1150 50  0001 C CNN
-	1    9250 1400
-	-1   0    0    1   
+P 9350 1400
+F 0 "U3" H 9350 1642 50  0000 C CNN
+F 1 "AMS1117-3.3" H 9350 1551 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9350 1600 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 9450 1150 50  0001 C CNN
+F 4 "AMS1117 3.3V voltage regulator SMD SOT-223 " H 9350 1400 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_AMS_AMS1117-3-3_AMS1117-3-3_C6186.html" H 9350 1400 50  0001 C CNN "Link"
+F 6 "1" H 9350 1400 50  0001 C CNN "MOQ"
+F 7 "AMS1117-3.3 " H 9350 1400 50  0001 C CNN "MPN"
+F 8 "Advanced Monolithic Systems " H 9350 1400 50  0001 C CNN "Manufacturer"
+F 9 "0.14" H 9350 1400 50  0001 C CNN "Price"
+F 10 "C6186" H 9350 1400 50  0001 C CNN "VPN"
+F 11 "LCSC" H 9350 1400 50  0001 C CNN "Vendor"
+	1    9350 1400
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C3
 U 1 1 623D4014
-P 9800 1250
-F 0 "C3" H 9915 1296 50  0000 L CNN
-F 1 "10uF" H 9915 1205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9838 1100 50  0001 C CNN
-F 3 "~" H 9800 1250 50  0001 C CNN
-	1    9800 1250
-	-1   0    0    1   
+P 8800 1550
+F 0 "C3" H 8915 1596 50  0000 L CNN
+F 1 "10uF" H 8915 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8838 1400 50  0001 C CNN
+F 3 "~" H 8800 1550 50  0001 C CNN
+F 4 "Capacitor 10 uF SMD 0805 " H 8800 1550 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KAYNNNE_10uF-106-10-25V_C15850.html" H 8800 1550 50  0001 C CNN "Link"
+F 6 "50" H 8800 1550 50  0001 C CNN "MOQ"
+F 7 "CL21A106KAYNNNE " H 8800 1550 50  0001 C CNN "MPN"
+F 8 "Samsung Electro-Mechanics " H 8800 1550 50  0001 C CNN "Manufacturer"
+F 9 "0.0076" H 8800 1550 50  0001 C CNN "Price"
+F 10 "C15850 " H 8800 1550 50  0001 C CNN "VPN"
+F 11 "LCSC" H 8800 1550 50  0001 C CNN "Vendor"
+	1    8800 1550
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 1400 9800 1400
+	8650 1400 8800 1400
 Wire Wire Line
-	9800 1400 9550 1400
-Connection ~ 9800 1400
+	8800 1400 9050 1400
+Connection ~ 8800 1400
 Wire Wire Line
-	9800 1100 9250 1100
+	8800 1700 9350 1700
 $Comp
 L Device:CP1 C2
 U 1 1 623F3FEA
-P 8750 1250
-F 0 "C2" H 8865 1296 50  0000 L CNN
-F 1 "22uF-Tantalum" H 8865 1205 50  0000 L CNN
-F 2 "CAPPC3528X210N:CAPPC3528X210N" H 8750 1250 50  0001 C CNN
-F 3 "~" H 8750 1250 50  0001 C CNN
-	1    8750 1250
-	-1   0    0    1   
+P 9850 1550
+F 0 "C2" H 9965 1596 50  0000 L CNN
+F 1 "22uF-Tantalum" H 9965 1505 50  0000 L CNN
+F 2 "CAPPC3528X210N:CAPPC3528X210N" H 9850 1550 50  0001 C CNN
+F 3 "~" H 9850 1550 50  0001 C CNN
+F 4 "Capacitor 22uF Tantalum SMD " H 9850 1550 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJB226M016RNJ_22uF-226-20-16V_C24518.html" H 9850 1550 50  0001 C CNN "Link"
+F 6 "1" H 9850 1550 50  0001 C CNN "MOQ"
+F 7 "TAJB226M016RNJ " H 9850 1550 50  0001 C CNN "MPN"
+F 8 "AVX" H 9850 1550 50  0001 C CNN "Manufacturer"
+F 9 "0.13" H 9850 1550 50  0001 C CNN "Price"
+F 10 "C24518" H 9850 1550 50  0001 C CNN "VPN"
+F 11 "LCSC" H 9850 1550 50  0001 C CNN "Vendor"
+	1    9850 1550
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8950 1400 8750 1400
+	9650 1400 9850 1400
 $Comp
-L power:GND #PWR041
+L power:GND #PWR040
 U 1 1 623F72DC
-P 9250 1100
-F 0 "#PWR041" H 9250 850 50  0001 C CNN
-F 1 "GND" V 9255 972 50  0000 R CNN
-F 2 "" H 9250 1100 50  0001 C CNN
-F 3 "" H 9250 1100 50  0001 C CNN
-	1    9250 1100
-	-1   0    0    1   
+P 9350 1700
+F 0 "#PWR040" H 9350 1450 50  0001 C CNN
+F 1 "GND" V 9355 1572 50  0000 R CNN
+F 2 "" H 9350 1700 50  0001 C CNN
+F 3 "" H 9350 1700 50  0001 C CNN
+	1    9350 1700
+	1    0    0    -1  
 $EndComp
-Connection ~ 9250 1100
+Connection ~ 9350 1700
 Wire Wire Line
-	9250 1100 8750 1100
-Text GLabel 8600 1400 0    50   Input ~ 0
+	9350 1700 9850 1700
+Text GLabel 10000 1400 2    50   Input ~ 0
 +3.3V
 Wire Wire Line
-	8750 1400 8600 1400
-Connection ~ 8750 1400
+	9850 1400 10000 1400
+Connection ~ 9850 1400
 Connection ~ 6700 1450
 Wire Wire Line
 	6700 1450 6700 1400
@@ -1866,24 +2600,40 @@ D5-SCL
 Text GLabel 1550 3500 0    50   Input ~ 0
 D4-SDA
 $Comp
-L Device:R R40
+L Device:R R43
 U 1 1 626A5446
 P 9300 3450
-F 0 "R40" V 9093 3450 50  0000 C CNN
+F 0 "R43" V 9093 3450 50  0000 C CNN
 F 1 "1K" V 9184 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9230 3450 50  0001 C CNN
 F 3 "~" H 9300 3450 50  0001 C CNN
+F 4 "Resistor 1K SMD 0805 " H 9300 3450 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8D1001T5E_C2767302.html" H 9300 3450 50  0001 C CNN "Link"
+F 6 "50" H 9300 3450 50  0001 C CNN "MOQ"
+F 7 "0805W8D1001T5E" H 9300 3450 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 9300 3450 50  0001 C CNN "Manufacturer"
+F 9 "0.0065" H 9300 3450 50  0001 C CNN "Price"
+F 10 "C2767302" H 9300 3450 50  0001 C CNN "VPN"
+F 11 "LCSC" H 9300 3450 50  0001 C CNN "Vendor"
 	1    9300 3450
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R39
+L Device:R R42
 U 1 1 626AB063
 P 8900 3450
-F 0 "R39" V 8693 3450 50  0000 C CNN
-F 1 "27K" V 8784 3450 50  0000 C CNN
+F 0 "R42" V 8693 3450 50  0000 C CNN
+F 1 "7.5K" V 8784 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8830 3450 50  0001 C CNN
 F 3 "~" H 8900 3450 50  0001 C CNN
+F 4 "Resistor 7.5K SMD 0805 " H 8900 3450 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8D7501T5E_C422815.html" H 8900 3450 50  0001 C CNN "Link"
+F 6 "50" H 8900 3450 50  0001 C CNN "MOQ"
+F 7 "0805W8D7501T5E" H 8900 3450 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 8900 3450 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 8900 3450 50  0001 C CNN "Price"
+F 10 "C422815" H 8900 3450 50  0001 C CNN "VPN"
+F 11 "LCSC" H 8900 3450 50  0001 C CNN "Vendor"
 	1    8900 3450
 	0    1    1    0   
 $EndComp
@@ -1892,10 +2642,10 @@ Vout+
 Wire Wire Line
 	9050 3450 9100 3450
 $Comp
-L power:GND #PWR042
+L power:GND #PWR041
 U 1 1 626B4C3B
 P 9450 3450
-F 0 "#PWR042" H 9450 3200 50  0001 C CNN
+F 0 "#PWR041" H 9450 3200 50  0001 C CNN
 F 1 "GND" H 9455 3277 50  0000 C CNN
 F 2 "" H 9450 3450 50  0001 C CNN
 F 3 "" H 9450 3450 50  0001 C CNN
@@ -1922,19 +2672,35 @@ F 0 "C1" H 6665 2396 50  0000 L CNN
 F 1 "10uF" H 6665 2305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6588 2200 50  0001 C CNN
 F 3 "~" H 6550 2350 50  0001 C CNN
+F 4 "Capacitor 10 uF SMD 0805 " H 6550 2350 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KAYNNNE_10uF-106-10-25V_C15850.html" H 6550 2350 50  0001 C CNN "Link"
+F 6 "50" H 6550 2350 50  0001 C CNN "MOQ"
+F 7 "CL21A106KAYNNNE " H 6550 2350 50  0001 C CNN "MPN"
+F 8 "Samsung Electro-Mechanics " H 6550 2350 50  0001 C CNN "Manufacturer"
+F 9 "0.0076" H 6550 2350 50  0001 C CNN "Price"
+F 10 "C15850 " H 6550 2350 50  0001 C CNN "VPN"
+F 11 "LCSC" H 6550 2350 50  0001 C CNN "Vendor"
 	1    6550 2350
 	0    -1   -1   0   
 $EndComp
 Text GLabel 5000 1950 2    50   Input ~ 0
 +3.3V
 $Comp
-L Device:Q_PMOS_GSD Q20
+L Device:Q_PMOS_GSD Q9
 U 1 1 61CDCAB9
 P 5100 1650
-F 0 "Q20" V 5349 1650 50  0000 C CNN
+F 0 "Q9" V 5349 1650 50  0000 C CNN
 F 1 "PMOS_AP40P05" V 5440 1650 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 1750 50  0001 C CNN
 F 3 "~" H 5100 1650 50  0001 C CNN
+F 4 "P-Channel mosfet 40V 5A RDS ON 65mΩ, Gate threshold -1.6V SMD SOT-23" H 5100 1650 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP40P05_C2886385.html" H 5100 1650 50  0001 C CNN "Link"
+F 6 "10" H 5100 1650 50  0001 C CNN "MOQ"
+F 7 "AP40P05" H 5100 1650 50  0001 C CNN "MPN"
+F 8 "ALLPOWER(ShenZhen Quan Li Semiconductor)" H 5100 1650 50  0001 C CNN "Manufacturer"
+F 9 "0.033" H 5100 1650 50  0001 C CNN "Price"
+F 10 "C2886385" H 5100 1650 50  0001 C CNN "VPN"
+F 11 "LCSC" H 5100 1650 50  0001 C CNN "Vendor"
 	1    5100 1650
 	-1   0    0    1   
 $EndComp
@@ -1956,13 +2722,21 @@ Connection ~ 6700 2350
 Wire Wire Line
 	6700 2350 6700 2450
 $Comp
-L Device:R R46
+L Device:R R34
 U 1 1 61DFB003
 P 7000 2000
-F 0 "R46" V 6793 2000 50  0000 C CNN
+F 0 "R34" V 6793 2000 50  0000 C CNN
 F 1 "10K" V 6884 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 2000 50  0001 C CNN
 F 3 "~" H 7000 2000 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 7000 2000 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 7000 2000 50  0001 C CNN "Link"
+F 6 "50" H 7000 2000 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 7000 2000 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 7000 2000 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 7000 2000 50  0001 C CNN "Price"
+F 10 "C57859 " H 7000 2000 50  0001 C CNN "VPN"
+F 11 "LCSC" H 7000 2000 50  0001 C CNN "Vendor"
 	1    7000 2000
 	-1   0    0    1   
 $EndComp
@@ -1975,4 +2749,50 @@ Wire Wire Line
 Connection ~ 7000 2200
 Wire Wire Line
 	7000 2200 7000 2250
+Text GLabel 8900 2300 0    50   Input ~ 0
+D4-SDA
+Text GLabel 8900 2400 0    50   Input ~ 0
+D5-SCL
+$Comp
+L Device:R R40
+U 1 1 61D5BFB4
+P 9050 2300
+F 0 "R40" V 8843 2300 50  0000 C CNN
+F 1 "10K" V 8934 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8980 2300 50  0001 C CNN
+F 3 "~" H 9050 2300 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 9050 2300 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 9050 2300 50  0001 C CNN "Link"
+F 6 "50" H 9050 2300 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 9050 2300 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 9050 2300 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 9050 2300 50  0001 C CNN "Price"
+F 10 "C57859 " H 9050 2300 50  0001 C CNN "VPN"
+F 11 "LCSC" H 9050 2300 50  0001 C CNN "Vendor"
+	1    9050 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R41
+U 1 1 61D5D02E
+P 9050 2400
+F 0 "R41" V 8843 2400 50  0000 C CNN
+F 1 "10K" V 8934 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8980 2400 50  0001 C CNN
+F 3 "~" H 9050 2400 50  0001 C CNN
+F 4 "Resistor 10K SMD 0805 " H 9050 2400 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0550F1002T5E_C57859.html" H 9050 2400 50  0001 C CNN "Link"
+F 6 "50" H 9050 2400 50  0001 C CNN "MOQ"
+F 7 "TC0550F1002T5E" H 9050 2400 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec) " H 9050 2400 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 9050 2400 50  0001 C CNN "Price"
+F 10 "C57859 " H 9050 2400 50  0001 C CNN "VPN"
+F 11 "LCSC" H 9050 2400 50  0001 C CNN "Vendor"
+	1    9050 2400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9200 2300 2    50   Input ~ 0
++3.3V
+Text GLabel 9200 2400 2    50   Input ~ 0
++3.3V
 $EndSCHEMATC
