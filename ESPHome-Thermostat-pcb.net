@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/franz-unix/kicad/projects/ESPHome-Thermostat-pcb/ESPHome-Thermostat-pcb.sch)
-    (date "mer 5 gen 2022, 12:13:57")
+    (source /home/franz-unix/nas/kicad/projects/ESPHome-Thermostat-pcb/ESPHome-Thermostat-pcb.sch)
+    (date "dom 9 gen 2022, 20:28:21")
     (tool "Eeschema 5.1.12-84ad8e8a86~92~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1865,7 +1865,7 @@
     (library (logical Device)
       (uri /usr/share/kicad/library/Device.lib))
     (library (logical ESP8266)
-      (uri /home/franz-unix/kicad/projects/ESPHome-Thermostat-pcb/extlibs/symbols/ESP8266/ESP8266.lib))
+      (uri /home/franz-unix/nas/kicad/projects/ESPHome-Thermostat-pcb/extlibs/symbols/ESP8266/ESP8266.lib))
     (library (logical Interface_Expansion)
       (uri /usr/share/kicad/library/Interface_Expansion.lib))
     (library (logical Jumper)
